@@ -198,11 +198,11 @@ namespace p4gpc.rpc
                 }
             }
 
-            // The 'weather' is sunset at night, otherwise it's either clear or winter
-            // There aren't any night pictures so sunset will do for now
-            var weather = time == 5 ? "sunset" : dayOfYear < 275 ? "clear" : "winter";
+            // Sets the weather to display (for images)
+            string weather = dayOfYear < 275 ? "" : "_winter";
+            if (time == 5) weather += "_night";
 
-            LogDebug(foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" ? "_" + weather : "")}" : "logo");
+            LogDebug(foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" && !foundField.inTVWorld && !foundField.ignoreWeather ? weather : "")}" : "logo");
 
             // Update the activity
             var activity = new Discord.Activity
@@ -216,7 +216,7 @@ namespace p4gpc.rpc
                 Assets =
                   {
                       //LargeImage = foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" ? "_" + weather : "")}" : "logo", // Larger Image Asset Key
-                      LargeImage = foundField.imageKey != null ? foundField.imageKey : "logo", // Larger Image Asset Key
+                      LargeImage = foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" && !foundField.inTVWorld && !foundField.ignoreWeather ? weather : "")}" : "logo", // Larger Image Asset Key
                       LargeText = foundField.imageText != null ? foundField.imageText: "Persona 4 Golden Logo", // Large Image Tooltip
                       //SmallImage = "entrance", // Small Image Asset Key
                       //SmallText = "Test image", // Small Image Tooltip
@@ -283,6 +283,7 @@ namespace p4gpc.rpc
             public bool inBattle;
             public string imageKey;
             public string imageText;
+            public bool ignoreWeather;
         }
 
         private void LogDebug(string message)
