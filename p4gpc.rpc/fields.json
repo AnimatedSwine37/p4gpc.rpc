@@ -1,0 +1,1543 @@
+[
+  {
+    "major": "000",
+    "minor": "000 ",
+    "name": "Main Menu",
+    "description": "In the menus",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "",
+    "inTVWorld": false
+  },
+  {
+    "major": "001",
+    "minor": "001 ",
+    "name": "Town map",
+    "description": "Exploring town",
+    "imageKey": "town_map",
+    "imageText": "Town Map",
+    "inTVWorld": false
+  },
+  {
+    "major": "001",
+    "minor": "002 ",
+    "name": "Winter Town Map",
+    "description": "Exploring town",
+    "imageKey": "town_map_winter",
+    "imageText": "Town Map",
+    "inTVWorld": false
+  },
+  {
+    "major": "004",
+    "minor": "001 ",
+    "name": "Amagi Inn Room",
+    "description": "Staying over at Amagi Inn",
+    "imageKey": "shopping_district",
+    "imageText": "Shopping District",
+    "inTVWorld": false
+  },
+  {
+    "major": "004",
+    "minor": "002 ",
+    "name": "Amagi inn",
+    "description": "Visiting Amagi Inn",
+    "imageKey": "shopping_district",
+    "imageText": "Shopping District",
+    "inTVWorld": false
+  },
+  {
+    "major": "004",
+    "minor": "003 ",
+    "name": "Hot Springs",
+    "description": "Relaxing in the hot springs",
+    "imageKey": "hot_springs",
+    "imageText": "Hot Springs",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "001 ",
+    "name": "Classroom Building, 1F",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "002 ",
+    "name": "Classroom Building, 2F",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "003 ",
+    "name": "Classroom Building, 3F",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "004 ",
+    "name": "Practice Building, 1F",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "005 ",
+    "name": "Practice Building, 2F",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "006 ",
+    "name": "Class 2-2",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "007 ",
+    "name": "Daidara Metalworks",
+    "description": "Browsing Daidara Metalworks",
+    "imageKey": "daidara",
+    "imageText": "Daidara Metalworks",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "008 ",
+    "name": "Drama Room",
+    "description": "Rehearsing drama",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "009 ",
+    "name": "P.E. Field",
+    "description": "Playing soccer",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "010 ",
+    "name": "Basketball Court",
+    "description": "Playing basketball",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "011 ",
+    "name": "Faculty Office",
+    "description": "Talking to Yasogami High faculty",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "012 ",
+    "name": "Nurse's Office",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "013 ",
+    "name": "Library",
+    "description": "Studying in the library",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "014 ",
+    "name": "Roof",
+    "description": "Exploring Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "015 ",
+    "name": "Yasogami Front Gate",
+    "description": "Entering Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "016 ",
+    "name": "Group Date Cafe",
+    "description": "Enjoying the culture festival",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "017 ",
+    "name": "School festival Yasogami 2F",
+    "description": "Enjoying the culture festival",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "018 ",
+    "name": "Winter, Yasogami High Gate",
+    "description": "Entering Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "019 ",
+    "name": "Winter, Yasogami Roof",
+    "description": "Enjoying the view atop Yasogami High",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "006",
+    "minor": "020 ",
+    "name": "Winter, Yasogami P.E. Field",
+    "description": "Playing soccer",
+    "imageKey": "school",
+    "imageText": "Yasogami High",
+    "inTVWorld": false
+  },
+  {
+    "major": "007",
+    "minor": "001 ",
+    "name": "Dojima Residence",
+    "description": "Outside the Dojima residence",
+    "imageKey": "dojima_residence_outside",
+    "imageText": "Dojima Residence",
+    "inTVWorld": false
+  },
+  {
+    "major": "007",
+    "minor": "002 ",
+    "name": "Living Room",
+    "description": "Resting in the living room",
+    "imageKey": "dojima_residence_inside",
+    "imageText": "Dojima Residence",
+    "inTVWorld": false
+  },
+  {
+    "major": "007",
+    "minor": "003 ",
+    "name": "Your Room",
+    "description": "Resting at home",
+    "imageKey": "bedroom",
+    "imageText": "Dojima Residence",
+    "inTVWorld": false
+  },
+  {
+    "major": "007",
+    "minor": "004 ",
+    "name": "Winter, Dojima Residence",
+    "description": "Outside the Dojima residence",
+    "imageKey": "dojima_residence_outside_winter",
+    "imageText": "Dojima Residence",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "001 ",
+    "name": "Shopping District, North",
+    "description": "Roaming the shopping district",
+    "imageKey": "shopping_district_north",
+    "imageText": "Shopping District, North",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "002 ",
+    "name": "Shopping District, South",
+    "description": "Roaming the shopping district",
+    "imageKey": "shopping_district_south",
+    "imageText": "Shopping District, South",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "003 ",
+    "name": "Velvet Room",
+    "description": "Visiting the Velvet Room",
+    "imageKey": "velvet_room",
+    "imageText": "The Velvet Room",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "004 ",
+    "name": "Daidara Metalworks",
+    "description": "Browsing Daidara Metalworks",
+    "imageKey": "daidara",
+    "imageText": "Daidara Metalworks",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "005 ",
+    "name": "Chinese Diner Aiya",
+    "description": "Eating at Aiya",
+    "imageKey": "chinese_diner",
+    "imageText": "Aiya",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "006 ",
+    "name": "Shiroku Store",
+    "description": "Browsing the Shiroku Store",
+    "imageKey": "shiroku_store",
+    "imageText": "Shiroku Store",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "007 ",
+    "name": "Tatsumi Textile Shop",
+    "description": "Visiting Tatsumi Textiles",
+    "imageKey": "shopping_district_north",
+    "imageText": "Shopping District, North",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "008 ",
+    "name": "Tofu shop",
+    "description": "Visiting Marukyu Tofu",
+    "imageKey": "shopping_district_south",
+    "imageText": "Shopping District, South",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "009 ",
+    "name": "Tatsuhime Shrine",
+    "description": "Visiting Tatsuhime Shrine",
+    "imageKey": "shrine",
+    "imageText": "Tatsuhime Shrine",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "010 ",
+    "name": "Shopping District, North",
+    "description": "Roaming the shopping district",
+    "imageKey": "shopping_district_north",
+    "imageText": "Shopping District, North",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "011 ",
+    "name": "Shiroku Pub",
+    "description": "Visiting the Shiroku Pub",
+    "imageKey": "shiroku_pub",
+    "imageText": "Shiroku Pub",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "012 ",
+    "name": "Winter, Shopping District, North",
+    "description": "Roaming the shopping district",
+    "imageKey": "shopping_district_north_winter",
+    "imageText": "Shopping District, North",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "013 ",
+    "name": "Winter, Shopping District, South",
+    "description": "Roaming the shopping district",
+    "imageKey": "shopping_district_south_winter",
+    "imageText": "Shopping District, South",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "014 ",
+    "name": "Winter, Tatsuhime Shrine",
+    "description": "Visiting Tatsuhime Shrine",
+    "imageKey": "shrine_winter",
+    "imageText": "Tatsuhime Shrine",
+    "inTVWorld": false
+  },
+  {
+    "major": "008",
+    "minor": "015 ",
+    "name": "Velvet Room",
+    "description": "Visiting the Velvet Room",
+    "imageKey": "velvet_room",
+    "imageText": "The Velvet Room",
+    "inTVWorld": false
+  },
+  {
+    "major": "009",
+    "minor": "001 ",
+    "name": "Food Court",
+    "description": "Meeting with the team at Junes",
+    "imageKey": "junes",
+    "imageText": "Junes",
+    "inTVWorld": false
+  },
+  {
+    "major": "009",
+    "minor": "002 ",
+    "name": "Junes, Electronics Section",
+    "description": "In the Electronics Section at Junes",
+    "imageKey": "junes",
+    "imageText": "Junes",
+    "inTVWorld": false
+  },
+  {
+    "major": "009",
+    "minor": "003 ",
+    "name": "Junes, products shop",
+    "description": "Shopping at Junes",
+    "imageKey": "junes",
+    "imageText": "Junes",
+    "inTVWorld": false
+  },
+  {
+    "major": "009",
+    "minor": "004 ",
+    "name": "Junes, West Entrance",
+    "description": "Visiting Junes",
+    "imageKey": "junes",
+    "imageText": "Junes",
+    "inTVWorld": false
+  },
+  {
+    "major": "009",
+    "minor": "005 ",
+    "name": "Winter Food Court",
+    "description": "Meeting with the team at Junes",
+    "imageKey": "junes",
+    "imageText": "Junes",
+    "inTVWorld": false
+  },
+  {
+    "major": "010",
+    "minor": "001 ",
+    "name": "Samegawa Flood Plain",
+    "description": "Exploring the Samegawa flood plain",
+    "imageKey": "flood_plain",
+    "imageText": "Samegawa flood plain",
+    "inTVWorld": false
+  },
+  {
+    "major": "010",
+    "minor": "002 ",
+    "name": "Samegawa Riverbank",
+    "description": "Exploring the Samegawa riverbank",
+    "imageKey": "riverbank",
+    "imageText": "Samegawa Riverbank",
+    "inTVWorld": false
+  },
+  {
+    "major": "010",
+    "minor": "003 ",
+    "name": "Samegawa Flood Plain, Moving",
+    "description": "Walking to school",
+    "imageKey": "flood_plain",
+    "imageText": "Samegawa flood plain",
+    "inTVWorld": false
+  },
+  {
+    "major": "010",
+    "minor": "004 ",
+    "name": "Samegawa Flood Plain, Moving",
+    "description": "Walking home",
+    "imageKey": "flood_plain",
+    "imageText": "Samegawa flood plain",
+    "inTVWorld": false
+  },
+  {
+    "major": "010",
+    "minor": "005 ",
+    "name": "Winter, Samegawa Flood Plain",
+    "description": "Exploring the Samegawa flood plain",
+    "imageKey": "flood_plain_winter",
+    "imageText": "Samegawa flood plain",
+    "inTVWorld": false
+  },
+  {
+    "major": "010",
+    "minor": "006 ",
+    "name": "Winter, Samegawa Riverbank",
+    "description": "Exploring the Samegawa riverbank",
+    "imageKey": "riverbank_winter",
+    "imageText": "Samegawa flood plain",
+    "inTVWorld": false
+  },
+  {
+    "major": "011",
+    "minor": "001 ",
+    "name": "Okina Station Front",
+    "description": "Exploring Okina",
+    "imageKey": "okina",
+    "imageText": "Okina",
+    "inTVWorld": false
+  },
+  {
+    "major": "011",
+    "minor": "002 ",
+    "name": "Clothes Shop",
+    "description": "Browsing Croco Fur",
+    "imageKey": "croco_fur",
+    "imageText": "Croco Fur",
+    "inTVWorld": false
+  },
+  {
+    "major": "012",
+    "minor": "002 ",
+    "name": "Hospital",
+    "description": "Working at the hospital",
+    "imageKey": "hospital_work",
+    "imageText": "Hospital",
+    "inTVWorld": false
+  },
+  {
+    "major": "012",
+    "minor": "003 ",
+    "name": "Hospital, bed",
+    "description": "Visiting someone at the hospital",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "012",
+    "minor": "004 ",
+    "name": "Another room in hospital",
+    "description": "Visiting someone at the hospital",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "013",
+    "minor": "001 ",
+    "name": "Shu Nakajima's room",
+    "description": "Working as a tutor",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "013",
+    "minor": "006 ",
+    "name": "Namatame's room",
+    "description": "Investigating the murders",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "013",
+    "minor": "008 ",
+    "name": "Daycare Hill",
+    "description": "Working at the daycare",
+    "imageKey": "day_care_work",
+    "imageText": "Daycare",
+    "inTVWorld": false
+  },
+  {
+    "major": "013",
+    "minor": "009 ",
+    "name": "Winter, Daycare Hill",
+    "description": "Working at the daycare",
+    "imageKey": "day_care_work_winter",
+    "imageText": "Daycare",
+    "inTVWorld": false
+  },
+  {
+    "major": "014",
+    "minor": "001 ",
+    "name": "Police Station Interrogation Room",
+    "description": "Investigating the murders",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "014",
+    "minor": "002 ",
+    "name": "Police Station",
+    "description": "Investigating the murders",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "015",
+    "minor": "001 ",
+    "name": "School Camping trip, Mystery Food X Place",
+    "description": "Enjoying the school camping trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Having dinner",
+    "inTVWorld": false
+  },
+  {
+    "major": "015",
+    "minor": "002 ",
+    "name": "School Camping trip, tents",
+    "description": "Enjoying the school camping trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Going to sleep",
+    "inTVWorld": false
+  },
+  {
+    "major": "015",
+    "minor": "003 ",
+    "name": "School Camping trip, place where boys get yeeted",
+    "description": "Enjoying the school camping trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Going swimming",
+    "inTVWorld": false
+  },
+  {
+    "major": "016",
+    "minor": "001 ",
+    "name": "School trip, Gekkoukan High",
+    "description": "Enjoying the school trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Visiting Gekkoukan High",
+    "inTVWorld": false
+  },
+  {
+    "major": "016",
+    "minor": "002 ",
+    "name": "School trip, Sea side city Hotel",
+    "description": "Enjoying the school trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Outside the hotel",
+    "inTVWorld": false
+  },
+  {
+    "major": "016",
+    "minor": "003 ",
+    "name": "School trip, Club Escapade",
+    "description": "Enjoying the school trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Partying at Club Escapade",
+    "inTVWorld": false
+  },
+  {
+    "major": "016",
+    "minor": "004 ",
+    "name": "School trip, Diner",
+    "description": "Enjoying the school trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Eating at Hagakure Ramen",
+    "inTVWorld": false
+  },
+  {
+    "major": "016",
+    "minor": "005 ",
+    "name": "School trip, Edogawa's Classroom",
+    "description": "Enjoying the school trip",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "state": "Listening to Mr. Edogawa's lecture",
+    "inTVWorld": false
+  },
+  {
+    "major": "016",
+    "minor": "006 ",
+    "name": "Cafe Chagall",
+    "description": "Dining at Cafe Chagall",
+    "imageKey": "chagall_cafe",
+    "imageText": "Cafe Chagall",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "001 ",
+    "name": "School Zone",
+    "description": "Walking to school",
+    "imageKey": "school_road",
+    "imageText": "School Zone",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "002 ",
+    "name": "Connected to School Zone",
+    "description": "Walking to school",
+    "imageKey": "school_road",
+    "imageText": "School Zone",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "003 ",
+    "name": "Train Station",
+    "description": "Visiting the train station",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "004 ",
+    "name": "Shichiri Beach",
+    "description": "Relaxing at Shichiri Beach",
+    "imageKey": "shichiri_beach",
+    "imageText": "Shichiri Beach",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "005 ",
+    "name": "Winter, School Zone",
+    "description": "Walking to school",
+    "imageKey": "school_road",
+    "imageText": "School Zone",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "006 ",
+    "name": "Winter, Train Station",
+    "description": "Visiting the train station",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "007 ",
+    "name": "Hot Springs",
+    "description": "Relaxing in the hot springs",
+    "imageKey": "hot_springs",
+    "imageText": "Hot Springs",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "008 ",
+    "name": "A random road when riding a scooter",
+    "description": "Riding a scooter",
+    "imageKey": "school_road",
+    "imageText": "School Zone",
+    "inTVWorld": false
+  },
+  {
+    "major": "017",
+    "minor": "009 ",
+    "name": "A random road when riding a scooter",
+    "description": "Riding a scooter",
+    "imageKey": "school_road",
+    "imageText": "School Zone",
+    "inTVWorld": false
+  },
+  {
+    "major": "018",
+    "minor": "001 ",
+    "name": "Mountian Road",
+    "description": "Exploring Mt. Yasogami",
+    "imageKey": "cabin",
+    "imageText": "Mt. Yasogami Cabin",
+    "inTVWorld": false
+  },
+  {
+    "major": "018",
+    "minor": "002 ",
+    "name": "Skiing Mountain Bottom",
+    "description": "Enjoying the ski trip",
+    "imageKey": "cabin",
+    "imageText": "Mt. Yasogami Cabin",
+    "state": "Skiing down Mt. Yasogami",
+    "inTVWorld": false
+  },
+  {
+    "major": "018",
+    "minor": "003 ",
+    "name": "Cottage",
+    "description": "Meeting in the cottage",
+    "imageKey": "cabin",
+    "imageText": "Mt. Yasogami Cabin",
+    "inTVWorld": false
+  },
+  {
+    "major": "018",
+    "minor": "004 ",
+    "name": "Ski trip cabbin",
+    "description": "Enjoying the ski trip",
+    "imageKey": "cabin",
+    "imageText": "Mt. Yasogami Cabin",
+    "state": "Telling ghost stories in the cabin",
+    "inTVWorld": false
+  },
+  {
+    "major": "020",
+    "minor": "001 ",
+    "name": "TV World Entrance",
+    "description": "Preparing in the TV world",
+    "imageKey": "tv_entrance",
+    "imageText": "TV World Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "021",
+    "minor": "001 ",
+    "name": "Tv Yamano room (Culprit dungeon)",
+    "description": "Preparing to enter Magatsu Inaba",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inTVWorld": true
+  },
+  {
+    "major": "021",
+    "minor": "002 ",
+    "name": "Corridor to Yamano room, very yellow",
+    "description": "Investigating the murders",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inTVWorld": true
+  },
+  {
+    "major": "022",
+    "minor": "001 ",
+    "name": "Twisted Shopping District",
+    "description": "Exploring the shopping district?",
+    "imageKey": "twisted_shopping_district",
+    "imageText": "Twisted Shopping District",
+    "inTVWorld": true
+  },
+  {
+    "major": "022",
+    "minor": "002 ",
+    "name": "Former Konishi Liquors",
+    "description": "Exploring Konishi Liquors",
+    "imageKey": "konishi_liquors",
+    "imageText": "Konishi Liquors",
+    "inTVWorld": true
+  },
+  {
+    "major": "023",
+    "minor": "001 ",
+    "name": "Yukiko Castle entrance",
+    "description": "Preparing to enter the castle",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "023",
+    "minor": "002 ",
+    "name": "'Yukiko's Castle final floor",
+    "description": "Climbing the castle",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "023",
+    "minor": "003 ",
+    "name": "Yukiko's Castle mid-point (Chie battle)",
+    "description": "Climbing the castle",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "060",
+    "minor": "001 ",
+    "name": "Yukiko's Castle 5F",
+    "description": "Climbing the castle",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "024",
+    "minor": "001 ",
+    "name": "Bathtub entrance",
+    "description": "Preparing to enter the bathhouse",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "024",
+    "minor": "002 ",
+    "name": "Bathtub Final floor",
+    "description": "Fighting through the bathhouse",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "061",
+    "minor": "002 ",
+    "name": "Bathhouse Floor 3",
+    "description": "Fighting through the bathhouse",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "061",
+    "minor": "003 ",
+    "name": "Bathhouse Floor 7",
+    "description": "Fighting through the bathhouse",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "025",
+    "minor": "001 ",
+    "name": "Club entrance",
+    "description": "Preparing to enter the club",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "025",
+    "minor": "002 ",
+    "name": "Club final floor",
+    "description": "Fighting through the club",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "026",
+    "minor": "001 ",
+    "name": "Void Quest entrance",
+    "description": "Preparing to play Void Quest",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "026",
+    "minor": "002 ",
+    "name": "Void Quest final floor",
+    "description": "Playing Void Quest",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "027",
+    "minor": "001 ",
+    "name": "Secret laboratory entrance",
+    "description": "Preparing to enter the secret lab",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "027",
+    "minor": "002 ",
+    "name": "Secret laboratory final floor",
+    "description": "Infiltrating the secret lab",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "065",
+    "minor": "001 ",
+    "name": "Secret laboratory Floor 4",
+    "description": "Infiltrating the secret lab",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "065",
+    "minor": "002 ",
+    "name": "Secret laboratory Floor 6",
+    "description": "Infiltrating the secret lab",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "028",
+    "minor": "001 ",
+    "name": "Heaven dungeon entrance",
+    "description": "Preparing to enter heaven",
+    "imageKey": "heaven",
+    "imageText": "Heaven Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "028",
+    "minor": "002 ",
+    "name": "Heaven final floor",
+    "description": "Exploring heaven",
+    "imageKey": "heaven",
+    "imageText": "Heaven Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "064",
+    "minor": "002 ",
+    "name": "Heaven Floor 4",
+    "description": "Exploring heaven",
+    "imageKey": "heaven",
+    "imageText": "Heaven Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "064",
+    "minor": "003 ",
+    "name": "Heaven Floor 7",
+    "description": "Exploring heaven",
+    "imageKey": "heaven",
+    "imageText": "Heaven Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "029",
+    "minor": "002 ",
+    "name": "Magatsu Inaba final floor",
+    "description": "Exploring Magatsu Inaba",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inTVWorld": true
+  },
+  {
+    "major": "066",
+    "minor": "002 ",
+    "name": "Magatsu Mandala World 3",
+    "description": "Exploring Magatsu Inaba",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inTVWorld": true
+  },
+  {
+    "major": "066",
+    "minor": "003 ",
+    "name": "Magatsu Mandala World 6",
+    "description": "Exploring Magatsu Inaba",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",    
+    "inTVWorld": true
+  },
+  {
+    "major": "030",
+    "minor": "001 ",
+    "name": "Yomotsu Hirasaka final floor",
+    "description": "Fighthing through Yomotsu Hirasaka",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "030",
+    "minor": "002 ",
+    "name": "Yomotsu Hirasaka entrance",
+    "description": "Preparing to enter Yomotsu Hirasaka",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "031",
+    "minor": "001 ",
+    "name": "Hollow Forest entrance",
+    "description": "Preparing to enter the Hollow Forest",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "031",
+    "minor": "002 ",
+    "name": "Hollow Forest final floor",
+    "description": "Exploring the Hollow Forest",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "248",
+    "minor": "002 ",
+    "name": "Kusumi-no-Okami Battle Area",
+    "description": "Fighting Kusumi-no-Okami",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inBattle": true,
+    "inTVWorld": false
+  },
+  {
+    "major": "248",
+    "minor": "003",
+    "name": "Marie Battle Area",
+    "description": "Fighting Marie",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inBattle": true,
+    "inTVWorld": false
+  },
+  {
+    "major": "040",
+    "minor": "000",
+    "name": "Castle",
+    "description": "Climbing the castle",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "041",
+    "minor": "000",
+    "name": "Bathhouse",
+    "description": "Fighting through the bathhouse",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "042",
+    "minor": "000 ",
+    "name": "Marukyu Striptease",
+    "description": "Fighting through the club",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "062",
+    "minor": "002 ",
+    "name": "Marukyu Striptease",
+    "description": "Fighting through the club",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "062",
+    "minor": "003 ",
+    "name": "Marukyu Striptease",
+    "description": "Fighting through the club",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "043",
+    "minor": "000",
+    "name": "Void Quest",
+    "description": "Playing Void Quest",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "063",
+    "minor": "001",
+    "name": "Void Quest",
+    "description": "Playing Void Quest",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "063",
+    "minor": "002",
+    "name": "Void Quest",
+    "description": "Playing Void Quest",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "045",
+    "minor": "000",
+    "name": "Secret Laboratory",
+    "description": "Infiltrating the secret lab",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "044",
+    "minor": "000",
+    "name": "Heaven",
+    "description": "Exploring heaven",
+    "imageKey": "heaven",
+    "imageText": "Heaven Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "046",
+    "minor": "000",
+    "name": "Magatsu Inaba",
+    "description": "Exploring Magatsu Inaba",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",    
+    "inTVWorld": true
+  },
+  {
+    "major": "066",
+    "minor": "001",
+    "name": "Magatsu Inaba",
+    "description": "Exploring Magatsu Inaba",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inTVWorld": true
+  },
+  {
+    "major": "069",
+    "minor": "004",
+    "name": "Memories of Parting",
+    "description": "Exploring the Hollow Forest",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "049",
+    "minor": "000",
+    "name": "Memories of Pain+",
+    "description": "Exploring the Hollow Forest",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "069",
+    "minor": "002",
+    "name": "Memories of Sorrow",
+    "description": "Exploring the Hollow Forest",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "069",
+    "minor": "003",
+    "name": "Memories of Anger",
+    "description": "Exploring the Hollow Forest",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "222",
+    "minor": "001",
+    "name": "Shadow Yosuke Battle Field",
+    "description": "Fighting Shadow Yosuke",
+    "imageKey": "konishi_liquors",
+    "imageText": "Konishi Liquors",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "222",
+    "minor": "002",
+    "name": "Shopping District Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "twisted_shopping_district",
+    "imageText": "Twisted Shopping District",
+    "inBattle": true,
+    "state": "In the shopping district?",
+    "inTVWorld": true
+  },
+  {
+    "major": "222",
+    "minor": "003",
+    "name": "??? Battle Field (foggy silhouette from start of game)",
+    "description": "Fighting a mysterious figure",
+    "imageKey": "logo",
+    "imageText": "Persona 4 Golden logo",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "240",
+    "minor": "002",
+    "name": "Shadow Chie Battle Field",
+    "description": "Fighting Shadow Chie",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "240",
+    "minor": "003",
+    "name": "Shadow Yukiko Battle Field",
+    "description": "Fighting Shadow Yukiko",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "240",
+    "minor": "001",
+    "name": "Castle Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "yukikos_castle",
+    "imageText": "Castle Entrance",
+    "inBattle": true,
+    "state": "In the Castle",
+    "inTVWorld": true
+  },
+  {
+    "major": "241",
+    "minor": "001",
+    "name": "Bathhouse Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inBattle": true,
+    "state": "In the steamy bathhouse",
+    "inTVWorld": true
+  },
+  {
+    "major": "241",
+    "minor": "002",
+    "name": "Shadow Kanji Battle Field",
+    "description": "Fighting Shadow Kanji",
+    "imageKey": "bathhouse",
+    "imageText": "Bathhouse Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "242",
+    "minor": "001",
+    "name": "Club Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inBattle": true,
+    "state": "In the club",
+    "inTVWorld": true
+  },
+  {
+    "major": "242",
+    "minor": "002",
+    "name": "Shadow Rise Battle Field",
+    "description": "Fighting Shadow Rise",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "242",
+    "minor": "003",
+    "name": "Shadow Teddie Battle Field",
+    "description": "Fighting Shadow Teddie",
+    "imageKey": "marukyu_striptease",
+    "imageText": "Club Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "243",
+    "minor": "001",
+    "name": "Void Quest Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inBattle": true,
+    "state": "In Void Quest",
+    "inTVWorld": true
+  },
+  {
+    "major": "243",
+    "minor": "002",
+    "name": "Shadow Mitsuo Battle Field",
+    "description": "Fighting Shadow Mitsuo",
+    "imageKey": "game",
+    "imageText": "Void Quest Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "244",
+    "minor": "001",
+    "name": "Heaven Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "heaven",
+    "imageText": "Heaven Entrance",
+    "inBattle": true,
+    "state": "In Heaven",
+    "inTVWorld": true
+  },
+  {
+    "major": "244",
+    "minor": "002",
+    "name": "Namatame Battle Field",
+    "description": "Fighting Kunino-Sagiri",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "244",
+    "minor": "003",
+    "name": "Margaret Battle Field",
+    "description": "Fighting Margaret",
+    "imageKey": "velvet_room",
+    "imageText": "The Velvet Room",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "245",
+    "minor": "001",
+    "name": "Secret Laboratory Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inBattle": true,
+    "state": "In the secret lab",
+    "inTVWorld": true
+  },
+  {
+    "major": "245",
+    "minor": "002",
+    "name": "Shadow Naoto Battle Field",
+    "description": "Fighting Shadow Naoto",
+    "imageKey": "secret_laboratory",
+    "imageText": "Secret Lab Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "246",
+    "minor": "001",
+    "name": "Magatsu Inaba Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inBattle": true,
+    "state": "In Magatsu Inaba",
+    "inTVWorld": true
+  },
+  {
+    "major": "246",
+    "minor": "002",
+    "name": "Ameno-Sagiri Battle Field",
+    "description": "Fighting Ameno-Sagiri",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "246",
+    "minor": "003",
+    "name": "Adachi Battle Field",
+    "description": "Fighting the culprit",
+    "imageKey": "desolate_bedroom",
+    "imageText": "Desolate Bedroom",
+    "inBattle": true,
+    "inTVWorld": true
+  },
+  {
+    "major": "248",
+    "minor": "001",
+    "name": "Hollow Forest Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "hollow_forest",
+    "imageText": "Hollow Forest Entrance",
+    "inBattle": true,
+    "state": "In the Hollow Forest",
+    "inTVWorld": true
+  },
+  {
+    "major": "047",
+    "minor": "000",
+    "name": "Yomotsu Hirasaka",
+    "description": "Fighthing through Yomotsu Hirasaka",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "067",
+    "minor": "002",
+    "name": "Yomotsu Hirasaka Path 6",
+    "description": "Fighthing through Yomotsu Hirasaka",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "067",
+    "minor": "001",
+    "name": "Yomotsu Hirasaka Path 3",
+    "description": "Fighthing through Yomotsu Hirasaka",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inTVWorld": true
+  },
+  {
+    "major": "247",
+    "minor": "001",
+    "name": "Yomotsu Hirasaka Battle Field",
+    "description": "Fighting shadows",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inBattle": true,
+    "state": "In Yomotsu Hirasaka",
+    "inTVWorld": true
+  },
+  {
+    "major": "247",
+    "minor": "002",
+    "name": "Izanami Battle Field",
+    "description": "Fighting Izanami",
+    "imageKey": "yomotsu_hirasaka",
+    "imageText": "Yomotsu Hirasaka Entrance",
+    "inBattle": true,
+    "inTVWorld": true
+  }
+]

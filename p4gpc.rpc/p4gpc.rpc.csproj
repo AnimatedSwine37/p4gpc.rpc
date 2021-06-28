@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Programs\Reloaded II\Mods\p4gpc.rpc\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ModConfig.json" />
+    <None Remove="Preview.png" />
+    <None Remove="Publish.ps1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ModConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="fields.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Reloaded.Memory" Version="4.1.1" />
+    <PackageReference Include="Reloaded.Mod.Interfaces" Version="1.9.0" />
+    <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DiscordGameSDK\" />
+  </ItemGroup>
+
+</Project>

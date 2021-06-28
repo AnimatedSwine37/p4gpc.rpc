@@ -1,0 +1,16 @@
+{
+  "ModId": "p4gpc.rpc",
+  "ModName": "Persona 4 Golden RPC",
+  "ModAuthor": "AnimatedSwine37",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Adds discord rich presence support to Persona 4 Golden PC",
+  "ModDll": "p4gpc.rpc.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/p4gpc.rpc.dll",
+  "ModR2RManagedDll64": "x64/p4gpc.rpc.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "OptionalDependencies": null,
+  "SupportedAppId": ["p4g.exe"]
+}
