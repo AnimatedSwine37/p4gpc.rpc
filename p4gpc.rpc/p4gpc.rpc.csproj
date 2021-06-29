@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <None Remove="ModConfig.json" />
-    <None Remove="Preview.png" />
     <None Remove="Publish.ps1" />
   </ItemGroup>
 
@@ -26,6 +25,12 @@
     <Content Include="ModConfig.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
