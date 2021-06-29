@@ -225,7 +225,7 @@
     "major": "006",
     "minor": "019 ",
     "name": "Winter, Yasogami Roof",
-    "description": "Enjoying the view atop Yasogami High",
+    "description": "Exploring Yasogami High",
     "imageKey": "school_roof",
     "imageText": "Yasogami High",
     "inTVWorld": false
@@ -244,7 +244,7 @@
     "minor": "001 ",
     "name": "Dojima Residence",
     "description": "Outside the Dojima residence",
-    "imageKey": "dojima_residence_outside",
+    "imageKey": "dojima_outside",
     "imageText": "Dojima Residence",
     "inTVWorld": false
   },
@@ -253,7 +253,7 @@
     "minor": "002 ",
     "name": "Living Room",
     "description": "Resting in the living room",
-    "imageKey": "dojima_residence_inside",
+    "imageKey": "dojima_inside",
     "imageText": "Dojima Residence",
     "inTVWorld": false
   },
@@ -271,7 +271,7 @@
     "minor": "004 ",
     "name": "Winter, Dojima Residence",
     "description": "Outside the Dojima residence",
-    "imageKey": "dojima_residence_outside_winter",
+    "imageKey": "dojima_outside",
     "imageText": "Dojima Residence",
     "inTVWorld": false
   },
@@ -280,7 +280,7 @@
     "minor": "001 ",
     "name": "Shopping District, North",
     "description": "Roaming the shopping district",
-    "imageKey": "shopping_district_north",
+    "imageKey": "shopping_north",
     "imageText": "Shopping District, North",
     "inTVWorld": false
   },
@@ -289,7 +289,7 @@
     "minor": "002 ",
     "name": "Shopping District, South",
     "description": "Roaming the shopping district",
-    "imageKey": "shopping_district_south",
+    "imageKey": "shopping_south",
     "imageText": "Shopping District, South",
     "inTVWorld": false
   },
@@ -338,7 +338,7 @@
     "minor": "007 ",
     "name": "Tatsumi Textile Shop",
     "description": "Visiting Tatsumi Textiles",
-    "imageKey": "shopping_district_north",
+    "imageKey": "shopping_north",
     "imageText": "Shopping District, North",
     "inTVWorld": false
   },
@@ -347,7 +347,7 @@
     "minor": "008 ",
     "name": "Tofu shop",
     "description": "Visiting Marukyu Tofu",
-    "imageKey": "shopping_district_south",
+    "imageKey": "shopping_south",
     "imageText": "Shopping District, South",
     "inTVWorld": false
   },
@@ -365,7 +365,7 @@
     "minor": "010 ",
     "name": "Shopping District, North",
     "description": "Roaming the shopping district",
-    "imageKey": "shopping_district_north",
+    "imageKey": "shopping_north",
     "imageText": "Shopping District, North",
     "inTVWorld": false
   },
@@ -384,7 +384,7 @@
     "minor": "012 ",
     "name": "Winter, Shopping District, North",
     "description": "Roaming the shopping district",
-    "imageKey": "shopping_district_north",
+    "imageKey": "shopping_north",
     "imageText": "Shopping District, North",
     "inTVWorld": false
   },
@@ -393,7 +393,7 @@
     "minor": "013 ",
     "name": "Winter, Shopping District, South",
     "description": "Roaming the shopping district",
-    "imageKey": "shopping_district_south",
+    "imageKey": "shopping_south",
     "imageText": "Shopping District, South",
     "inTVWorld": false
   },
