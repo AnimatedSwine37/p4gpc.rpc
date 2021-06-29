@@ -106,16 +106,8 @@ namespace p4gpc.rpc
             var fieldMinor = field[2]; // field[1] is just a buffer
             var foundField = _fields.SingleOrDefault(field => field.major == fieldMajor && field.minor == fieldMinor);
 
-            // Set variables for activity info
-            var name = foundField.name;
-            if (foundField.name == null)
-            {
-                name = _previousField.name != null ? _previousField.name : "a mysterious place";
-                foundField = _previousField;
-            }
-            var state = foundField.state;
-            var description = foundField.description != null ? foundField.description : $"Exploring {name}";
-
+            string description = "";
+            string state = "";
 
             // Player is on the after battle screen (hopefully)
             if (_previousField.inBattle && foundField.name == null)
@@ -126,13 +118,30 @@ namespace p4gpc.rpc
                 _tickCounter++;
             }
 
+            
+            // Set variables for activity info
+            var name = foundField.name;
+            if (foundField.name == null && description != "Resting after a successful battle")
+            {
+                name = _previousField.name != null ? _previousField.name : "a mysterious place";
+                foundField = _previousField;
+            }
+
+            // Only set state and description if they weren't set to resting after a battle before
+            if(description != "Resting after a successful battle")
+            {
+                state = foundField.state;
+                description = foundField.description != null ? foundField.description : $"Exploring {name}";
+            }
+
+
             // Keep track of how long we've been in the current field
             if (_previousField.major == foundField.major && _previousField.minor == foundField.minor)
             {
                 _tickCounter++;
             }
             // Don't change previous field if you're on after battle screen
-            else if (!(_previousField.description == "Fighting shadows" && foundField.name == null))
+            else if (description != "Resting after a successful battle")
             {
                 _previousField = foundField;
                 _tickCounter = 0;
