@@ -42,7 +42,7 @@ namespace p4gpc.rpc
         // Current mod configuration
         public Config Configuration { get; set; }
 
-        public RPC(ILogger logger, Config configuration, string modDirectory, IReloadedHooks hooks)
+        public RPC(ILogger logger, Config configuration, string modDirectory)
         {
             Configuration = configuration;
             _logger = logger;
@@ -58,6 +58,9 @@ namespace p4gpc.rpc
             // If it failed to load fields, the mod can't work
             if(_fields != null)
             {
+                try
+                {
+
                 // Activate discord stuff
                 _rpcEnabled = true;
                 _startTime = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
@@ -70,6 +73,12 @@ namespace p4gpc.rpc
 
                 _logger.WriteLine("[RPC] RPC activated");
 
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine($"[RPC] Error initialising RPC: {e.Message}", System.Drawing.Color.Red);
+                    Console.WriteLine(e.StackTrace, System.Drawing.Color.Red);
+                }
             }
         }
 
@@ -299,7 +308,10 @@ namespace p4gpc.rpc
         {
             if (Configuration.Debug)
             {
-                _logger.WriteLine($"[RPC] {message}");
+                if(_logger != null)
+                {
+                    _logger.WriteLine($"[RPC] {message}");
+                }
             }
         }
 
@@ -307,21 +319,30 @@ namespace p4gpc.rpc
         {
             _rpcEnabled = false;
             ClearActivity();
-            _logger.WriteLine("[RPC] RPC suspended");
+            if(_logger != null)
+            {
+                _logger.WriteLine("[RPC] RPC suspended");
+            }
         }
 
         public void Resume()
         {
             _startTime = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
             _rpcEnabled = true;
-            _logger.WriteLine("[RPC] RPC resumed");
+            if(_logger != null)
+            {
+                _logger.WriteLine("[RPC] RPC resumed");
+            }
         }
 
         public void Unload()
         {
             _timer.Dispose();
             _discord.Dispose();
-            _logger.WriteLine("[RPC] RPC unloaded");
+            if(_logger != null)
+            {
+                _logger.WriteLine("[RPC] RPC unloaded");
+            }
         }
     }
 

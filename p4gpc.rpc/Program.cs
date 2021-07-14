@@ -48,7 +48,7 @@ namespace p4gpc.rpc
             //Debugger.Launch();
             _modLoader = (IModLoader)loader;
             _logger = (ILogger)_modLoader.GetLogger();
-            _modLoader.GetController<IReloadedHooks>().TryGetTarget(out _hooks);
+            //_modLoader.GetController<IReloadedHooks>().TryGetTarget(out _hooks);
 
             // Your config file is in Config.json.
             // Need a different name, format or more configurations? Modify the `Configurator`.
@@ -58,7 +58,7 @@ namespace p4gpc.rpc
             _configuration.ConfigurationUpdated += OnConfigurationUpdated;
 
             /* Your mod code starts here. */
-            _rpc = new RPC(_logger, _configuration, _modLoader.GetDirectoryForModId(MyModId), _hooks);
+            _rpc = new RPC(_logger, _configuration, _modLoader.GetDirectoryForModId(MyModId));
         }
 
         private void OnConfigurationUpdated(IConfigurable obj)
