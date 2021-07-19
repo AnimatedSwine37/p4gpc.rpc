@@ -25,7 +25,6 @@ namespace p4gpc.rpc
         private long _battleStartTime = 0;
         private string _modDirectory;
         private Field[] _fields;
-        private WeatherHook _weatherHook;
         private int _tickCounter = 0;
         private Field _previousField;
 
@@ -66,6 +65,7 @@ namespace p4gpc.rpc
                 _startTime = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
 
                 _discord = new Discord.Discord(CLIENT_ID, (UInt64)CreateFlags.NoRequireDiscord);
+                LogDebug("Discord client created");
                 _discord.SetLogHook(LogLevel.Debug, LogProblemsFunction);
                 _activityManager = _discord.GetActivityManager();
                 _activityManager.RegisterSteam(1113000);
@@ -76,9 +76,13 @@ namespace p4gpc.rpc
                 }
                 catch(Exception e)
                 {
-                    Console.WriteLine($"[RPC] Error initialising RPC: {e.Message}", System.Drawing.Color.Red);
-                    Console.WriteLine(e.StackTrace, System.Drawing.Color.Red);
+                    _logger.WriteLine($"[RPC] Error initialising RPC please make sure Discord is running: {e.Message}", System.Drawing.Color.Red);
+                    LogDebug(e.StackTrace);
                 }
+            } 
+            else
+            {
+                _logger.WriteLine($"[RPC] Error initialising RPC: Couldn't load fields. Make sure fields.json exists in the mod's folder", System.Drawing.Color.Red);
             }
         }
 
