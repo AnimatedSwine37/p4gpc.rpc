@@ -25,6 +25,7 @@ namespace p4gpc.rpc
         private long _battleStartTime = 0;
         private string _modDirectory;
         private Field[] _fields;
+        private Event[] _events; 
         private int _tickCounter = 0;
         private Field _previousField;
 
@@ -53,9 +54,10 @@ namespace p4gpc.rpc
             // Activate the get weather hook
             //_weatherHook = new WeatherHook(_logger, hooks, _baseAddress);
 
-            LoadFields();
+            _fields = (Field[])LoadFile("fields.json", typeof(Field[]));
+            _events = (Event[])LoadFile("events.json", typeof(Event[]));
             // If it failed to load fields, the mod can't work
-            if(_fields != null)
+            if (_fields != null && _events != null)
             {
                 try
                 {
@@ -82,7 +84,8 @@ namespace p4gpc.rpc
             } 
             else
             {
-                _logger.WriteLine($"[RPC] Error initialising RPC: Couldn't load fields. Make sure fields.json exists in the mod's folder", System.Drawing.Color.Red);
+                string missingFile = _fields == null ? "fields" : "events";
+                _logger.WriteLine($"[RPC] Error initialising RPC: Couldn't load {missingFile}. Make sure {missingFile}.json exists in the mod's folder", System.Drawing.Color.Red);
             }
         }
 
@@ -106,21 +109,23 @@ namespace p4gpc.rpc
             _memory.SafeRead((IntPtr)_baseAddress + 7316824, out short[] field, 3);
             // Get the current time
             _memory.SafeRead((IntPtr)_baseAddress + 77454494, out short time);
+            // Get the current event
+            _memory.SafeRead((IntPtr)_baseAddress + 0x9CAB94, out short[] currentEvent, 3);
             // Get the day number
             _memory.SafeRead((IntPtr)_baseAddress + 0x49DDC9C, out short dayOfYear);
             DateTime date = new DateTime(2011, 4, 1).AddDays(dayOfYear);
 
-            // Check if we're in a dungeon (Flag 3075)
-            //_memory.SafeRead((IntPtr)_baseAddress + 77453020, out byte inDungeonByte);
-            //// Get the 3rd bit from the byte that the flag is in (black magic explained here https://stackoverflow.com/questions/4854207/get-a-specific-bit-from-byte)
-            //var inDungeon = (inDungeonByte & (1 << 4 - 1)) != 0;
-            //LogDebug($"In dungeon: {inDungeon}");
             var fieldMajor = field[0];
             var fieldMinor = field[2]; // field[1] is just a buffer
             var foundField = _fields.SingleOrDefault(field => field.major == fieldMajor && field.minor == fieldMinor);
 
-            string description = "";
-            string state = "";
+            var eventMajor = currentEvent[0];
+            var eventMinor = currentEvent[2]; // currentEvent[1] is a buffer 
+
+            string description = null;
+            string state = null;
+            string imageKey = null;
+            string imageText = null;
 
             // Player is on the after battle screen (hopefully)
             if (_previousField.inBattle && foundField.name == null)
@@ -161,6 +166,27 @@ namespace p4gpc.rpc
 
             }
 
+            // Check if we're in an event
+            if(eventMajor != 0 && eventMinor != 0)
+            {
+                var foundEvent = _events.SingleOrDefault(e => e.major == eventMajor && e.minor == eventMinor);
+                
+                // Override field status stuff with event stuff
+                if(foundEvent.description != null)
+                {
+                    description = foundEvent.description;
+
+                    if (foundEvent.state != null)
+                        state = foundField.state;
+                    if(foundEvent.imageKey != null)
+                    {
+                        imageKey = foundEvent.imageKey;
+                        imageText = foundEvent.imageText;
+                    }
+                }
+            }
+
+
             // Set the battle start time if necessary
             if (_battleStartTime == 0 && foundField.inBattle) _battleStartTime = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
             else if (_battleStartTime != 0 && !foundField.inBattle) _battleStartTime = 0;
@@ -191,7 +217,7 @@ namespace p4gpc.rpc
                     }
                 }
 
-                if (foundField.state != null)
+                if (state != null)
                 {
                     switch (_tickCounter % 3)
                     {
@@ -224,6 +250,13 @@ namespace p4gpc.rpc
             string weather = dayOfYear < 275 ? "" : "_winter";
             if (time == 5) weather += "_night";
 
+            // Set the image to be the field image if it isn't already set to an event one
+            if(imageKey == null)
+            {
+                imageKey = foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" && !foundField.inTVWorld && !foundField.ignoreWeather ? weather : "")}" : "logo";
+                imageText = foundField.imageText != null ? foundField.imageText : "Persona 4 Golden Logo";
+            }
+
             LogDebug(foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" && !foundField.inTVWorld && !foundField.ignoreWeather ? weather : "")}" : "logo");
 
             // Update the activity
@@ -237,11 +270,8 @@ namespace p4gpc.rpc
                   },
                 Assets =
                   {
-                      //LargeImage = foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" ? "_" + weather : "")}" : "logo", // Larger Image Asset Key
-                      LargeImage = foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" && !foundField.inTVWorld && !foundField.ignoreWeather ? weather : "")}" : "logo", // Larger Image Asset Key
-                      LargeText = foundField.imageText != null ? foundField.imageText: "Persona 4 Golden Logo", // Large Image Tooltip
-                      //SmallImage = "entrance", // Small Image Asset Key
-                      //SmallText = "Test image", // Small Image Tooltip
+                      LargeImage = imageKey, // Larger Image Asset Key
+                      LargeText = imageText, // Large Image Tooltip
                   },
                 Instance = false,
             };
@@ -253,6 +283,8 @@ namespace p4gpc.rpc
                     LogDebug("Successfully updated activity!");
                     LogDebug($"Field Major: {fieldMajor}");
                     LogDebug($"Field Minor: {fieldMinor}");
+                    LogDebug($"Event Major: {eventMajor}");
+                    LogDebug($"Event Minor: {eventMinor}");
                 }
                 else
                 {
@@ -277,20 +309,21 @@ namespace p4gpc.rpc
             });
         }
 
-        private void LoadFields()
+        private object LoadFile(string fileName, Type serialiseType)
         {
             try
             {
-                using (StreamReader file = File.OpenText(Path.Combine(_modDirectory, "fields.json")))
+                using (StreamReader file = File.OpenText(Path.Combine(_modDirectory, fileName)))
                 {
                     JsonSerializer serializer = new JsonSerializer();
-                    _fields = (Field[])serializer.Deserialize(file, typeof(Field[]));
+                    return serializer.Deserialize(file, serialiseType);
                 }
             }
             catch (Exception e)
             {
                 _logger.WriteLine($"[RPC] Error loading field information, RPC will not be activated. Please make sure fields.json exists in the mod's folder.", System.Drawing.Color.Red);
             }
+            return null;
 
         }
 
@@ -306,6 +339,17 @@ namespace p4gpc.rpc
             public string imageKey;
             public string imageText;
             public bool ignoreWeather;
+        }
+
+        struct Event
+        {
+            public short major;
+            public short minor;
+            public string name;
+            public string description;
+            public string state;
+            public string imageKey;
+            public string imageText;
         }
 
         private void LogDebug(string message)

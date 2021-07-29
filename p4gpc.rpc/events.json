@@ -1,0 +1,3329 @@
+[
+    {
+        "major": "070",
+        "minor": "500",
+        "name": "Teddie\"s Miracle Quiz (ENG)",
+        "description": "Playing Teddie's Miracle Quiz"
+    },
+    {
+        "major": "080",
+        "minor": "500",
+        "name": "JPN exclusive listing w/ protagonist and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "501",
+        "name": "JPN exclusive listing w/ Yosuke and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "502",
+        "name": "JPN exclusive listing w/ Chie and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "503",
+        "name": "JPN exclusive listing w/ Yukiko and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "504",
+        "name": "JPN exclusive listing w/ Kanji and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "505",
+        "name": "JPN exclusive listing w/ Rise and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "506",
+        "name": "JPN exclusive listing w/ Naoto and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "507",
+        "name": "JPN exclusive listing w/ Teddie and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "508",
+        "name": "JPN exclusive listing w/ Nanako and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "509",
+        "name": "JPN exclusive listing w/ Dojima and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "510",
+        "name": "JPN exclusive listing w/ Adachi and Marie"
+    },
+    {
+        "major": "080",
+        "minor": "511",
+        "name": "JPN exclusive listing w/ Marie and Marie"
+    },
+    {
+        "major": "090",
+        "minor": "001",
+        "name": "velvet room fusion (normal)",
+        "description": "Performing a fusion"
+    },
+    {
+        "major": "090",
+        "minor": "002",
+        "name": "velvet room fusion (triangle)",
+        "description": "Performing a triangle fusion"
+    },
+    {
+        "major": "090",
+        "minor": "003",
+        "name": "velvet room fusion (cross)",
+        "description": "Performing a cross fusion"
+    },
+    {
+        "major": "090",
+        "minor": "004",
+        "name": "velvet room fusion (pentagon)",
+        "description": "Performing a pentagon fusion"
+    },
+    {
+        "major": "090",
+        "minor": "005",
+        "name": "velvet room fusion (hexagon)",
+        "description": "Performing a hexagon fusion"
+    },
+    {
+        "major": "090",
+        "minor": "006",
+        "name": "velvet room fusion (dodecagon)",
+        "description": "Performing a dodecagon fusion"
+    },
+    {
+        "major": "100",
+        "minor": "001",
+        "name": "Igor\"s welcome to the velvet room (JPN)"
+    },
+    {
+        "major": "100",
+        "minor": "100",
+        "name": "ski event w/ Chie (JPN)"
+    },
+    {
+        "major": "101",
+        "minor": "001",
+        "name": "Igor\"s introduction (ENG)"
+    },
+    {
+        "major": "102",
+        "minor": "001",
+        "name": "Igor\"s introduction part 2 (ENG)"
+    },
+    {
+        "major": "103",
+        "minor": "001",
+        "name": "moving to Inaba cutscene as text (JPN)"
+    },
+    {
+        "major": "104",
+        "minor": "001",
+        "name": "meeting Dojima and Nanako (ENG)",
+        "description": "Meeting the Dojima family"
+    },
+    {
+        "major": "105",
+        "minor": "001",
+        "name": "gas station scene (ENG)"
+    },
+    {
+        "major": "105",
+        "minor": "002",
+        "name": "arriving at the Dojima residence (ENG)"
+    },
+    {
+        "major": "106",
+        "minor": "001",
+        "name": "first day eating with Nanako and Dojima (ENG)"
+    },
+    {
+        "major": "107",
+        "minor": "001",
+        "name": "breakfast with Nanako (ENG)"
+    },
+    {
+        "major": "107",
+        "minor": "510",
+        "name": "black screen"
+    },
+    {
+        "major": "108",
+        "minor": "001",
+        "name": "walking with Nanako to school (ENG)"
+    },
+    {
+        "major": "109",
+        "minor": "001",
+        "name": "Yosuke\"s first bike crash (ENG)"
+    },
+    {
+        "major": "110",
+        "minor": "001",
+        "name": "Introduction to Class"
+    },
+    {
+        "major": "111",
+        "minor": "001",
+        "name": "First day of class ends; 1st body discovery"
+    },
+    {
+        "major": "112",
+        "minor": "001",
+        "name": "Mitsuo asks out Yukiko"
+    },
+    {
+        "major": "113",
+        "minor": "001",
+        "name": "Walk home past 1st crime scene; adachi puke"
+    },
+    {
+        "major": "114",
+        "minor": "001",
+        "name": "You and Nanako watch 1st crime scene news; Junes song"
+    },
+    {
+        "major": "115",
+        "minor": "001",
+        "name": "Yosuke rolling in trash can"
+    },
+    {
+        "major": "116",
+        "minor": "001",
+        "name": "Plan to eat steak at Junes; repay Chie broken DVD"
+    },
+    {
+        "major": "117",
+        "minor": "001",
+        "name": "Meet Saki at Junes"
+    },
+    {
+        "major": "118",
+        "minor": "001",
+        "name": "Saki interviewed on TV"
+    },
+    {
+        "major": "120",
+        "minor": "001",
+        "name": "First time touching the TV (JPN)"
+    },
+    {
+        "major": "120",
+        "minor": "002",
+        "name": "black screen"
+    },
+    {
+        "major": "122",
+        "minor": "001",
+        "name": "Protag, Yosuke, and Chie discuss seeing Saki on the TV (ENG)"
+    },
+    {
+        "major": "123",
+        "minor": "001",
+        "name": "Going into the TV for the first time (ENG)"
+    },
+    {
+        "major": "124",
+        "minor": "001",
+        "name": "Arriving in the TV for the first time (ENG)"
+    },
+    {
+        "major": "124",
+        "minor": "002",
+        "name": "Arriving in the TV cutscene as text (JPN)"
+    },
+    {
+        "major": "124",
+        "minor": "003",
+        "name": "Going into the bedroom in the TV world (ENG)"
+    },
+    {
+        "major": "125",
+        "minor": "001",
+        "name": "Exploring the bedroom in the TV world (ENG)"
+    },
+    {
+        "major": "126",
+        "minor": "001",
+        "name": "Meeting Teddie for the first time (ENG)"
+    },
+    {
+        "major": "127",
+        "minor": "001",
+        "name": "Out of the TV, back to Junes (ENG)"
+    },
+    {
+        "major": "132",
+        "minor": "001",
+        "name": "After first day in TV; Dojima asks about Saki"
+    },
+    {
+        "major": "133",
+        "minor": "001",
+        "name": "Dojima says hi and leaves for work"
+    },
+    {
+        "major": "133",
+        "minor": "002",
+        "name": "Saki death reveal text (JPN)"
+    },
+    {
+        "major": "134",
+        "minor": "001",
+        "name": "Eavesdrop on students talking about Saki\"s death while walking to school"
+    },
+    {
+        "major": "135",
+        "minor": "001",
+        "name": "Principal announces Saki\"s death"
+    },
+    {
+        "major": "136",
+        "minor": "001",
+        "name": "Eavesdrop on girls talking about Saki; follow Yosuke to Junes"
+    },
+    {
+        "major": "137",
+        "minor": "001",
+        "name": "Yosuke and MC go in TV with rope"
+    },
+    {
+        "major": "137",
+        "minor": "002",
+        "name": "Chie tugs on rope, rope snaps"
+    },
+    {
+        "major": "139",
+        "minor": "001",
+        "name": "Yosuke & MC fall in TV; take off Teddie\"s head; Push Teddie over"
+    },
+    {
+        "major": "141",
+        "minor": "001",
+        "name": "Boys go to the shopping district in the TV (ENG)"
+    },
+    {
+        "major": "142",
+        "minor": "001",
+        "name": "Protagonist awakens to his persona as text (JPN)"
+    },
+    {
+        "major": "144",
+        "minor": "001",
+        "name": "Teddie calls protag \"Sensei\" for the first time (ENG)"
+    },
+    {
+        "major": "145",
+        "minor": "001",
+        "name": "Shadow Yosuke encounter (ENG)"
+    },
+    {
+        "major": "146",
+        "minor": "001",
+        "name": "Yosuke rejects his shadow (ENG)"
+    },
+    {
+        "major": "147",
+        "minor": "001",
+        "name": "Yosuke and Shadow Yosuke cutscene as text (JPN)"
+    },
+    {
+        "major": "148",
+        "minor": "001",
+        "name": "Yosuke accepts his Shadow (ENG)"
+    },
+    {
+        "major": "149",
+        "minor": "001",
+        "name": "Yosuke and protag find out they can save people (ENG)"
+    },
+    {
+        "major": "150",
+        "minor": "001",
+        "name": "Yosuke & MC come out of TV; Chie gets mad and runs off"
+    },
+    {
+        "major": "151",
+        "minor": "001",
+        "name": "Talk to Yukiko in her Kimono under pagoda"
+    },
+    {
+        "major": "152",
+        "minor": "001",
+        "name": "Yukiko interviewed on TV"
+    },
+    {
+        "major": "153",
+        "minor": "001",
+        "name": "\"Kimono Girl\" on midnight channel"
+    },
+    {
+        "major": "154",
+        "minor": "001",
+        "name": "Igor gives MC the Velvet Key in his dreams"
+    },
+    {
+        "major": "155",
+        "minor": "001",
+        "name": "Magician arcana social link LVL 1; Yosuke"
+    },
+    {
+        "major": "156",
+        "minor": "001",
+        "name": "Chie realizes that Yukiko was on the midnight channel"
+    },
+    {
+        "major": "157",
+        "minor": "001",
+        "name": "Teddie bites MC through TV"
+    },
+    {
+        "major": "158",
+        "minor": "001",
+        "name": "Dojima and Adachi talk about the murders"
+    },
+    {
+        "major": "161",
+        "minor": "001",
+        "name": "Princess Yukiko cutscene as text (JPN)"
+    },
+    {
+        "major": "162",
+        "minor": "001",
+        "name": "Yosukes call after seeing Yukiko on the TV (ENG)"
+    },
+    {
+        "major": "163",
+        "minor": "001",
+        "name": "Nanako tells you that she can watch the house herself (ENG)"
+    },
+    {
+        "major": "164",
+        "minor": "001",
+        "name": "Yosuke and protag get arrested (ENG)"
+    },
+    {
+        "major": "165",
+        "minor": "001",
+        "name": "Yosuke and protag get a lecture from Dojima at the station (ENG)"
+    },
+    {
+        "major": "165",
+        "minor": "002",
+        "name": "Yosuke and protag see Chie at the police station (ENG)"
+    },
+    {
+        "major": "166",
+        "minor": "001",
+        "name": "Going to the weapons shop for the first time (ENG)"
+    },
+    {
+        "major": "167",
+        "minor": "001",
+        "name": "Seeing the velvet room door for the first time (ENG)"
+    },
+    {
+        "major": "168",
+        "minor": "001",
+        "name": "Marie\"s introduction (ENG)"
+    },
+    {
+        "major": "169",
+        "minor": "001",
+        "name": "Yosuke, Chie, and protag plan to go in the TV at Junes (ENG)"
+    },
+    {
+        "major": "170",
+        "minor": "001",
+        "name": "Enter TV, Teddie is introduced to Chie (ENG)"
+    },
+    {
+        "major": "171",
+        "minor": "001",
+        "name": "Gathering at Yukiko dungeon entrance (ENG)"
+    },
+    {
+        "major": "172",
+        "minor": "001",
+        "name": "Chie shadow scene (ENG)"
+    },
+    {
+        "major": "173",
+        "minor": "001",
+        "name": "Defeated Chie shadow scene; Chie gets persona (ENG)"
+    },
+    {
+        "major": "174",
+        "minor": "001",
+        "name": "Chie gets glasses (ENG)"
+    },
+    {
+        "major": "175",
+        "minor": "001",
+        "name": "Fool arcana social link LVL 1; Investigation Team (ENG)"
+    },
+    {
+        "major": "176",
+        "minor": "001",
+        "name": "Chariot arcana social link LVL 1; Chie Satonaka (ENG)"
+    },
+    {
+        "major": "177",
+        "minor": "001",
+        "name": "Shadow Yukiko intro scene (ENG)"
+    },
+    {
+        "major": "178",
+        "minor": "001",
+        "name": "Shadow Yukiko battle scene (ENG)"
+    },
+    {
+        "major": "179",
+        "minor": "001",
+        "name": "Shadow Yukiko defeat scene; Yukiko gets a persona (ENG)"
+    },
+    {
+        "major": "180",
+        "minor": "001",
+        "name": "After getting Yukiko out of the TV (ENG)"
+    },
+    {
+        "major": "181",
+        "minor": "001",
+        "name": "Dojima comes home with Adachi for the first time (ENG)"
+    },
+    {
+        "major": "182",
+        "minor": "001",
+        "name": "The family talk about Golden Week (ENG)"
+    },
+    {
+        "major": "182",
+        "minor": "002",
+        "name": "Foggy street after saving Yukiko (ENG) "
+    },
+    {
+        "major": "183",
+        "minor": "001",
+        "name": "Checking the TV after rescuing Yukiko (ENG) "
+    },
+    {
+        "major": "183",
+        "minor": "002",
+        "name": "Dungeon 1 game over (ENG)"
+    },
+    {
+        "major": "184",
+        "minor": "001",
+        "name": "Yukiko comes back to school (ENG)"
+    },
+    {
+        "major": "185",
+        "minor": "001",
+        "name": "Investigation Team SL rank 2 (ENG)"
+    },
+    {
+        "major": "185",
+        "minor": "002",
+        "name": "See Adachi at Junes for the first time (ENG)"
+    },
+    {
+        "major": "186",
+        "minor": "001",
+        "name": "Yukiko gets her glasses (ENG)"
+    },
+    {
+        "major": "187",
+        "minor": "001",
+        "name": "The family talk about going on a trip on Golden Week (ENG)"
+    },
+    {
+        "major": "188",
+        "minor": "001",
+        "name": "Golden Week is canceled (ENG)"
+    },
+    {
+        "major": "189",
+        "minor": "001",
+        "name": "Chie comes over and invites Nanako to Junes (ENG)"
+    },
+    {
+        "major": "190",
+        "minor": "001",
+        "name": "Junes with Nanako and team (ENG)"
+    },
+    {
+        "major": "191",
+        "minor": "001",
+        "name": "Justice arcana social link LVL 1; Nanako Dojima (ENG)"
+    },
+    {
+        "major": "192",
+        "minor": "001",
+        "name": "Yosuke apologizes to MC about Nanako (ENG)"
+    },
+    {
+        "major": "193",
+        "minor": "001",
+        "name": "Talk about midterms for the first time (ENG)"
+    },
+    {
+        "major": "193",
+        "minor": "500",
+        "name": "Lights go out at school (ENG)"
+    },
+    {
+        "major": "193",
+        "minor": "501",
+        "name": "Nanako and MC make flowers together (ENG)",
+        "description": "Making flowers with Nanako"
+    },
+    {
+        "major": "194",
+        "minor": "001",
+        "name": "Discussion after midterms (ENG)"
+    },
+    {
+        "major": "195",
+        "minor": "001",
+        "name": "Kanji is on the news (ENG)"
+    },
+    {
+        "major": "196",
+        "minor": "001",
+        "name": "\"Will you see someone on the Midnight Channel?\" (ENG)",
+        "description": "Watching the Midnight Channel"
+    },
+    {
+        "major": "197",
+        "minor": "001",
+        "name": "Kanji is on the TV (ENG)",
+        "description": "Watching the Midnight Channel"
+    },
+    {
+        "major": "198",
+        "minor": "001",
+        "name": "Investigation Team discuss who might have been on the TV (ENG)"
+    },
+    {
+        "major": "199",
+        "minor": "001",
+        "name": "A clear image of Kanji appears on the TV (ENG)",
+        "description": "Watching the Midnight Channel"
+    },
+    {
+        "major": "200",
+        "minor": "001",
+        "name": "Team discuss Kanji being on TV (ENG)"
+    },
+    {
+        "major": "201",
+        "minor": "001",
+        "name": "Team go to Tatsumi Textiles for the first time (ENG)"
+    },
+    {
+        "major": "202",
+        "minor": "001",
+        "name": "Team see Kanji and Naoto talking (ENG)"
+    },
+    {
+        "major": "203",
+        "minor": "001",
+        "name": "Pair with Yukiko on steakout (ENG)"
+    },
+    {
+        "major": "204",
+        "minor": "001",
+        "name": "Priestess arcana social link LVL 1; Yukiko Amagi (ENG)"
+    },
+    {
+        "major": "205",
+        "minor": "001",
+        "name": "Kanji chases Yosuke and Chie (ENG)"
+    },
+    {
+        "major": "206",
+        "minor": "001",
+        "name": "Chie and Yosuke apologize to Yukiko and MC (ENG)"
+    },
+    {
+        "major": "207",
+        "minor": "001",
+        "name": "Call from Yukiko (ENG)"
+    },
+    {
+        "major": "208",
+        "minor": "001",
+        "name": "Kanji\"s TV Show (ENG)"
+    },
+    {
+        "major": "209",
+        "minor": "001",
+        "name": "Investigation Team SL rank 3 (ENG)"
+    },
+    {
+        "major": "210",
+        "minor": "001",
+        "name": "Team go to TV world to talk to Teddie about Kanji (ENG)"
+    },
+    {
+        "major": "211",
+        "minor": "001",
+        "name": "Team go to Kanji\"s sauna (ENG)"
+    },
+    {
+        "major": "212",
+        "minor": "001",
+        "name": "MEN ONLY!! Kanji Tatsumi in Rosy Steam Paradise (ENG)"
+    },
+    {
+        "major": "213",
+        "minor": "001",
+        "name": "Kanji rejects his shadow (ENG)"
+    },
+    {
+        "major": "214",
+        "minor": "001",
+        "name": "Kanji accepts his shadow (ENG)"
+    },
+    {
+        "major": "215",
+        "minor": "001",
+        "name": "Investigation Team take Kanji to Junes (ENG)"
+    },
+    {
+        "major": "216",
+        "minor": "001",
+        "name": "Dojima tells you Kanji has been found (ENG)"
+    },
+    {
+        "major": "216",
+        "minor": "500",
+        "name": "Nanako wants to plant vegetables (ENG)"
+    },
+    {
+        "major": "216",
+        "minor": "501",
+        "name": "Nanako and MC make a garden (ENG)"
+    },
+    {
+        "major": "217",
+        "minor": "001",
+        "name": "\"It seems the fog will set in tonight\" (ENG)"
+    },
+    {
+        "major": "218",
+        "minor": "001",
+        "name": "Checking the TV after rescuing Kanji (ENG)"
+    },
+    {
+        "major": "218",
+        "minor": "002",
+        "name": "Dungeon 2 game over (ENG)"
+    },
+    {
+        "major": "219",
+        "minor": "001",
+        "name": "Foggy street after saving Kanji (ENG)"
+    },
+    {
+        "major": "280",
+        "minor": "001",
+        "name": "Investigation Team talk at Junes after Mitsuo\"s arrest (ENG)"
+    },
+    {
+        "major": "281",
+        "minor": "001",
+        "name": "Team ask what Nanako wants to eat (ENG)"
+    },
+    {
+        "major": "282",
+        "minor": "001",
+        "name": "Teddie\"s SL rank 4 // Nanako tries omelettes (ENG)"
+    },
+    {
+        "major": "283",
+        "minor": "001",
+        "name": "Checking the TV after rescuing Mitsuo (ENG)"
+    },
+    {
+        "major": "283",
+        "minor": "002",
+        "name": "Dungeon 4 game over (ENG)"
+    },
+    {
+        "major": "284",
+        "minor": "001",
+        "name": "Sushi with the family and Adachi (ENG)"
+    },
+    {
+        "major": "285",
+        "minor": "001",
+        "name": "Investigation Team + Nanako and Dojima go to the shrine festival (ENG)"
+    },
+    {
+        "major": "285",
+        "minor": "501",
+        "name": "Yosuke calls to go to the beach (ENG)"
+    },
+    {
+        "major": "285",
+        "minor": "502",
+        "name": "Beach meetup and wardrobe malfunction (ENG)"
+    },
+    {
+        "major": "285",
+        "minor": "503",
+        "name": "Yosuke gets all philosophical (ENG)"
+    },
+    {
+        "major": "285",
+        "minor": "510",
+        "name": "Rise calls for the summer fireworks festival (ENG)"
+    },
+    {
+        "major": "285",
+        "minor": "512",
+        "name": "Summer fireworks festival conclusion (ENG)"
+    },
+    {
+        "major": "286",
+        "minor": "001",
+        "name": "First day after summer vacation (ENG)"
+    },
+    {
+        "major": "287",
+        "minor": "001",
+        "name": "Team try to invite Naoto to Junes (ENG)"
+    },
+    {
+        "major": "288",
+        "minor": "001",
+        "name": "Team talk about the class trip to Tatsumi Port Island (ENG)"
+    },
+    {
+        "major": "289",
+        "minor": "500",
+        "name": "Cut Typhoon event (ENG)"
+    },
+    {
+        "major": "289",
+        "minor": "501",
+        "name": "Nanako picks up MC from school // part of cut typhoon event (ENG)"
+    },
+    {
+        "major": "320",
+        "minor": "001",
+        "name": "\"dont rescue anymore\" note (ENG)"
+    },
+    {
+        "major": "321",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "322",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "323",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "324",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "325",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "326",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "327",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "328",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "329",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "340",
+        "minor": "001",
+        "name": "Nanako gets a fever (ENG)"
+    },
+    {
+        "major": "340",
+        "minor": "500",
+        "name": ""
+    },
+    {
+        "major": "340",
+        "minor": "501",
+        "name": ""
+    },
+    {
+        "major": "341",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "341",
+        "minor": "002",
+        "name": ""
+    },
+    {
+        "major": "341",
+        "minor": "003",
+        "name": ""
+    },
+    {
+        "major": "342",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "343",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "344",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "344",
+        "minor": "002",
+        "name": ""
+    },
+    {
+        "major": "345",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "346",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "347",
+        "minor": "001",
+        "name": ""
+    },
+    {
+        "major": "349",
+        "minor": "001",
+        "name": "Dojima and Namatame chase cutscene as text (JPN)"
+    },
+    {
+        "major": "445",
+        "minor": "500",
+        "name": "Build a snowman with Nanako (ENG)",
+        "description": "Building a snowteddie with Nanako"
+    },
+    {
+        "major": "360",
+        "minor": "001",
+        "name": "Checking the TV after rescuing Nanako (ENG)",
+        "description": "Watching the Midnight Channel"
+    },
+    {
+        "major": "360",
+        "minor": "002",
+        "name": "Dungeon 6 game over (ENG)"
+    },
+    {
+        "major": "361",
+        "minor": "001",
+        "name": "Namatame in the newspaper (ENG)"
+    },
+    {
+        "major": "362",
+        "minor": "001",
+        "name": "Investigation Team + Dojima and Adachi visit Nanako (ENG)"
+    },
+    {
+        "major": "363",
+        "minor": "001",
+        "name": "Doctors can\"t figure out the cause of Nanako\"s symptoms (ENG)"
+    },
+    {
+        "major": "364",
+        "minor": "001",
+        "name": "People in town discuss the fog (ENG)"
+    },
+    {
+        "major": "365",
+        "minor": "001",
+        "name": "Team finds out their glasses work in the real world (ENG)"
+    },
+    {
+        "major": "366",
+        "minor": "001",
+        "name": "Remind the Team to buy a kotatsu for Nanako (ENG)ss"
+    },
+    {
+        "major": "367",
+        "minor": "001",
+        "name": "Phone call from Adachi at Junes (ENG)"
+    },
+    {
+        "major": "368",
+        "minor": "001",
+        "name": "Dojima begs doctors to save Nanako (ENG)"
+    },
+    {
+        "major": "369",
+        "minor": "001",
+        "name": "Nurse calls MC into Nanako\"s room (ENG)"
+    },
+    {
+        "major": "520",
+        "minor": "010",
+        "name": "Dummy file for unlocking Nanako\"s SL (ENG)"
+    },
+    {
+        "major": "520",
+        "minor": "020",
+        "name": "Nanako\"s SL rank 2 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "030",
+        "name": "Nanako\"s SL rank 9 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "040",
+        "name": "Nanako\"s SL rank 4 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "050",
+        "name": "Nanako\"s SL rank 3 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "060",
+        "name": "Nanako\"s SL rank 5 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "070",
+        "name": "Nanako\"s SL rank 6 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "080",
+        "name": "Nanako\"s SL rank 7 part 1 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "081",
+        "name": "Nanako\"s SL rank 7 part 2 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "082",
+        "name": "Nanako\"s SL rank 7 part 3 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "090",
+        "name": "Nanako\"s SL rank 8 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "520",
+        "minor": "100",
+        "name": "Nanako\"s SL rank 10 (ENG)",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "530",
+        "minor": "010",
+        "name": "Dummy file for unlocking Rise\"s SL",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "020",
+        "name": "Rise SL rank #2",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "030",
+        "name": "Rise SL rank #3",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "040",
+        "name": "Rise SL rank #4",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "050",
+        "name": "Rise SL rank #5",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "060",
+        "name": "Rise SL in-between "
+    },
+    {
+        "major": "530",
+        "minor": "061",
+        "name": "Rise SL rank #6",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "070",
+        "name": "Rise SL in-between",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "071",
+        "name": "Rise SL rank #7 ",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "080",
+        "name": "Rise SL rank #8",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "090",
+        "name": "Rise SL rank #9",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "100",
+        "name": "Rise SL rank #10 Lovers Route",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "530",
+        "minor": "110",
+        "name": "Rise SL rank max Lovers Route",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "535",
+        "minor": "100",
+        "name": "Rise SL rank #10 Regular",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "540",
+        "minor": "110",
+        "name": "Yukiko SL Rank 10 Lovers",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "570",
+        "minor": "005",
+        "name": "Sayoko Initial Meeting",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "010",
+        "name": "Sayoko SL Rank 1",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "020",
+        "name": "Sayoko SL Rank 2",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "030",
+        "name": "Meeting Hisano at the hospital",
+        "description": "Working as a janitor"
+    },
+    {
+        "major": "570",
+        "minor": "031",
+        "name": "Sayoko SL Rank 3",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "040",
+        "name": "Second meeting with Hisano at the hospital",
+        "description": "Working as a janitor"
+    },
+    {
+        "major": "570",
+        "minor": "041",
+        "name": "Sayoko SL Rank 4",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "050",
+        "name": "Sayoko SL Rank 5",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "060",
+        "name": "Working at the hospital, you hear a noise but ignore it, raises courage",
+        "description": "Working as a janitor"
+    },
+    {
+        "major": "570",
+        "minor": "061",
+        "name": "Sayoko SL Rank 6",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "070",
+        "name": "Sayoko SL Rank 7",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "080",
+        "name": "Sayoko SL Rank 8",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "090",
+        "name": "Sayoko SL Rank 9",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "570",
+        "minor": "100",
+        "name": "Working at the hospital, you hear a noise but ignore it, raises courage",
+        "description": "Working as a janitor"
+    },
+    {
+        "major": "570",
+        "minor": "101",
+        "name": "Sayoko SL Rank 10",
+        "description": "Spending time with Sayoko"
+    },
+    {
+        "major": "580",
+        "minor": "010",
+        "name": "Kanji SL Rank 1",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "020",
+        "name": "Kanji SL Rank 2",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "030",
+        "name": "Kanji SL Rank 3",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "031",
+        "name": "Kanji SL Rank 3 (part 2)",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "040",
+        "name": "Kanji SL Rank 4",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "041",
+        "name": "Kanji SL Rank 4 (part 2)",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "050",
+        "name": "Kanji SL Rank 5",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "060",
+        "name": "Kanji SL Rank 6",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "070",
+        "name": "Kanji SL Rank 7",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "080",
+        "name": "Kanji SL Rank 8",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "090",
+        "name": "Kanji SL Rank 9",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "580",
+        "minor": "100",
+        "name": "Kanji SL Rank 10",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "600",
+        "minor": "001",
+        "name": "Getting an Ema from the fox",
+        "description": "Getting a request from the fox"
+    },
+    {
+        "major": "600",
+        "minor": "002",
+        "name": "Fortune drawing at shrine",
+        "description": "Drawing a fortune"
+    },
+    {
+        "major": "600",
+        "minor": "003",
+        "name": "Going up to shrine building, the fox doesn't have anything for you and doesn't jump down"
+    },
+    {
+        "major": "600",
+        "minor": "010",
+        "name": "You have nothig to do, go out somewhere (eiher event 600_11 or 600_12)",
+    },
+    {
+        "major": "600",
+        "minor": "011",
+        "name": "Visiting the train station, you can get a Tap soda (leads to fox rank 1 event)"
+    },
+    {
+        "major": "600",
+        "minor": "012",
+        "name": "Going shopping at junes, you can get (leads to fox rank 1 event)",
+        "description": "Shopping at Junes"
+    },
+    {
+        "major": "600",
+        "minor": "013",
+        "name": "Fox SL Rank 1",
+        "description": "Getting a request from the fox"
+    },
+    {
+        "major": "600",
+        "minor": "014",
+        "name": "You decide to go home after meeting the fox"
+    },
+    {
+        "major": "600",
+        "minor": "020",
+        "name": "Fox SL Rank 2 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "030",
+        "name": "Fox SL Rank 3 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "040",
+        "name": "Fox SL Rank 4 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "050",
+        "name": "Fox SL Rank 5 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "060",
+        "name": "Fox SL Rank 6 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "070",
+        "name": "Fox SL Rank 7 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "080",
+        "name": "Fox SL Rank 8 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "090",
+        "name": "Fox SL Rank 9 Dummy (JPN)"
+    },
+    {
+        "major": "600",
+        "minor": "099",
+        "name": "The fox trys to tell you something but you need enthralling expression (happens even if you do have it)"
+    },
+    {
+        "major": "600",
+        "minor": "100",
+        "name": "Fox SL Rank 10 (shrine becomes golden)",
+        "description": "Spending time with the Fox"
+    },
+    {
+        "major": "600",
+        "minor": "110",
+        "name": "The shrine is thriving and the fox is still working to revitalise it"
+    },
+    {
+        "major": "640",
+        "minor": "003",
+        "name": "Talking with rank 0 Naoki, called to student health association meeting",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "004",
+        "name": "Student health association meeting (right after 640_3)",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "005",
+        "name": "Talking with Naoki after the meeting (follows above event)",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "650",
+        "minor": "010",
+        "name": "Hisano SL Rank 1",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "020",
+        "name": "Hisano SL Rank 2",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "030",
+        "name": "Hisano SL Rank 3",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "040",
+        "name": "Hisano SL Rank 4",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "050",
+        "name": "Hisano SL Rank 5",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "060",
+        "name": "Hisano SL Rank 6",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "070",
+        "name": "Hisano SL Rank 7",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "080",
+        "name": "Hisano SL Rank 8",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "090",
+        "name": "Hisano SL Rank 9",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "650",
+        "minor": "100",
+        "name": "Hisano SL Rank 10",
+        "description": "Spending time with Hisano"
+    },
+    {
+        "major": "700",
+        "minor": "005",
+        "name": "Looking around the drama club (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "010",
+        "name": "Yumi\"s SL rank 1 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "020",
+        "name": "Yumi\"s SL rank 2 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "030",
+        "name": "Yumi\"s SL rank 3 part 1 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "031",
+        "name": "Yumi\"s SL rank 3 part 2 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "040",
+        "name": "Yumi\"s SL rank 4 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "050",
+        "name": "Yumi isn\"t at drama club (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "051",
+        "name": "Yumi\"s SL rank 5 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "060",
+        "name": "Yumi isn\"t at drama club (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "061",
+        "name": "Yumi\"s SL rank 6 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "070",
+        "name": "Yumi isn\"t at drama club (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "071",
+        "name": "Yumi\"s SL rank 7 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "080",
+        "name": "Yumi isn\"t at drama club (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "081",
+        "name": "Yumi\"s SL rank 8 part 1 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "082",
+        "name": "Yumi\"s SL rank 8 part 2 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "090",
+        "name": "Yumi\"s SL rank 9 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "100",
+        "name": "Yumi\"s SL rank 10 (ENG)",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "700",
+        "minor": "101",
+        "name": "Yumi goes to your room for the first time (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "110",
+        "name": "Going to drama after Yumi SL (ENG)"
+    },
+    {
+        "major": "700",
+        "minor": "111",
+        "name": "Yumi goes to your room (ENG)"
+    },
+    {
+        "major": "710",
+        "minor": "001",
+        "name": "Discussing culture clubs with Kashigawa as Morooka (JPN)"
+    },
+    {
+        "major": "710",
+        "minor": "002",
+        "name": "Ask about clubs (ENG)",
+        "description": "Asking about school clubs"
+    },
+    {
+        "major": "710",
+        "minor": "003",
+        "name": "Discussing clubs with Kashigawa (ENG)",
+        "description": "Asking about school clubs"
+    },
+    {
+        "major": "710",
+        "minor": "005",
+        "name": "Band practice (ENG)"
+    },
+    {
+        "major": "710",
+        "minor": "010",
+        "name": "Ayane\"s SL rank 1 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "020",
+        "name": "Ayane\"s SL rank 2 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "030",
+        "name": "Ayane\"s SL rank 3 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "040",
+        "name": "Ayane\"s SL rank 4 part 1 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "041",
+        "name": "Ayane\"s SL rank 4 part 2 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "050",
+        "name": "Ayane\"s SL rank 5 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "060",
+        "name": "Ayane\"s SL rank 6 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "070",
+        "name": "Ayane\"s SL rank 7 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "080",
+        "name": "Band practice (ENG)"
+    },
+    {
+        "major": "710",
+        "minor": "081",
+        "name": "Ayane\"s SL rank 8 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "090",
+        "name": "Ayane\"s SL rank 9 romance (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "091",
+        "name": "After school with Ayane (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "092",
+        "name": "Walking with Ayane (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "093",
+        "name": "Ayane goes to your room (ENG)"
+    },
+    {
+        "major": "710",
+        "minor": "100",
+        "name": "Band practice (ENG)"
+    },
+    {
+        "major": "710",
+        "minor": "101",
+        "name": "Ayane\"s SL rank 10 romance (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "710",
+        "minor": "110",
+        "name": "Band practice (ENG)"
+    },
+    {
+        "major": "710",
+        "minor": "111",
+        "name": "Ayane goes to your room (ENG)"
+    },
+    {
+        "major": "715",
+        "minor": "090",
+        "name": "Ayane\"s SL rank 9 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "715",
+        "minor": "100",
+        "name": "Ayane\"s SL rank 10 (ENG)",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "715",
+        "minor": "110",
+        "name": "Band practice (ENG)"
+    },
+    {
+        "major": "720",
+        "minor": "005",
+        "name": "Daycare job intro",
+        "description": "Working at the daycare"
+    },
+    {
+        "major": "720",
+        "minor": "010",
+        "name": "Daycare job",
+        "description": "Working at the daycare"
+    },
+    {
+        "major": "720",
+        "minor": "011",
+        "name": "Eri SL LVL#1",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "020",
+        "name": "Eri SL LVL#2",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "030",
+        "name": "Eri SL LVL#3",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "040",
+        "name": "Eri SL LVL#4",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "050",
+        "name": "in-between",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "051",
+        "name": "Eri SL LVL#5",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "060",
+        "name": "in-between",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "061",
+        "name": "Eri SL LVL#6",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "070",
+        "name": "in-between",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "071",
+        "name": "Eri SL LVL#7",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "080",
+        "name": "in-between",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "081",
+        "name": "Eri SL LVL#8",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "090",
+        "name": "Eri SL LVL#9",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "100",
+        "name": "Eri SL Max",
+        "description": "Spending time with Eri"
+    },
+    {
+        "major": "720",
+        "minor": "110",
+        "name": "Daycare job w/o Eri",
+        "description": "Working at the daycare"
+    },
+    {
+        "major": "730",
+        "minor": "500",
+        "name": "Adachi SL LVL#1",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "510",
+        "name": "Adachi SL LVL#2",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "520",
+        "name": "Adachi SL LVL#3",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "530",
+        "name": "Adachi SL LVL#4",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "540",
+        "name": "Adachi SL LVL#5",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "550",
+        "name": "Adachi SL LVL#6",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "560",
+        "name": "Adachi SL LVL#7",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "570",
+        "name": "Adachi SL LVL#8",
+        "description": "Spending time with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "571",
+        "name": "Decide whether or not to meet with Adachi"
+    },
+    {
+        "major": "730",
+        "minor": "572",
+        "name": "Enter TV at Junes"
+    },
+    {
+        "major": "730",
+        "minor": "573",
+        "name": "Jester --> Hunger"
+    },
+    {
+        "major": "730",
+        "minor": "574",
+        "name": "tba"
+    },
+    {
+        "major": "730",
+        "minor": "575",
+        "name": "tba"
+    },
+    {
+        "major": "730",
+        "minor": "576",
+        "name": "tba"
+    },
+    {
+        "major": "740",
+        "minor": "500",
+        "name": "Marie meets Yosuke",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "501",
+        "name": "Marie SL LVL#1",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "505",
+        "name": "One of Marie\"s poem scene\"s I think, without the poem; \"dummy\"",
+        "description": "Learning more about Marie"
+    },
+    {
+        "major": "740",
+        "minor": "506",
+        "name": "Marie velvet room introduction",
+        "description": "Meeting Marie for the first time"
+    },
+    {
+        "major": "740",
+        "minor": "510",
+        "name": "Marie meets Chie",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "511",
+        "name": "Marie SL LVL#2",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "520",
+        "name": "Marie meets Yukiko",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "521",
+        "name": "Shopping with Marie, Chie, and Yukiko",
+        "description": "Shopping with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "522",
+        "name": "Marie SL LVL#3",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "530",
+        "name": "Bring Marie to school",
+        "description": "Showing Marie around school"
+    },
+    {
+        "major": "740",
+        "minor": "531",
+        "name": "Marie talks about cramped hallways",
+        "description": "Showing Marie around school"
+    },
+    {
+        "major": "740",
+        "minor": "532",
+        "name": "Marie SL LVL#4",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "540",
+        "name": "Marie SL LVL#5; Marie meets Teddie, Kanji, Rise, and Naoto",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "545",
+        "name": "Marie and everyong hangs out in front of Souzai Daigaku",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "550",
+        "name": "Marie bamboo comb investigation",
+        "description": "Investigating Marie's past"
+    },
+    {
+        "major": "740",
+        "minor": "551",
+        "name": "Marie SL LVL#6",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "560",
+        "name": "Marie more bamboo comb investigation",
+        "description": "Investigating Marie's past"
+    },
+    {
+        "major": "740",
+        "minor": "561",
+        "name": "Marie SL LVL#7",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "570",
+        "name": "Marie SL LVL#8",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "580",
+        "name": "Marie SL LVL#9",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "585",
+        "name": "Spend time with Marie and everyone at Junes food court",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "740",
+        "minor": "590",
+        "name": "Marie SL Max (Lovers Route)"
+    },
+    {
+        "major": "745",
+        "minor": "590",
+        "name": "Marie SL Max (Regular)"
+    },
+    {
+        "major": "745",
+        "minor": "595",
+        "name": "Everyone hangs out at Junes food court"
+    },
+    {
+        "major": "810",
+        "minor": "001",
+        "name": "You promised to meet someone note (ENG)"
+    },
+    {
+        "major": "810",
+        "minor": "002",
+        "name": "Phone call (ENG)"
+    },
+    {
+        "major": "810",
+        "minor": "003",
+        "name": "Text message from Margaret (ENG)"
+    },
+    {
+        "major": "830",
+        "minor": "011",
+        "name": "Walk in school cutscene "
+    },
+    {
+        "major": "830",
+        "minor": "012",
+        "name": "Lunchtime school cutscene; someone talks to you after you walk downstairs"
+    },
+    {
+        "major": "830",
+        "minor": "013",
+        "name": "Choose to eat lunch with someone",
+        "description": "Deciding who to eat lunch with"
+    },
+    {
+        "major": "830",
+        "minor": "014",
+        "name": "You ate lunch with (whoever you choose) (rooftop)",
+        "description": "Eating lunch with someone"
+    },
+    {
+        "major": "830",
+        "minor": "020",
+        "name": "Ai invites you out to lunch (JPN)"
+    },
+    {
+        "major": "830",
+        "minor": "514",
+        "name": "You ate lunch with (whoever you choose) (gym)",
+        "description": "Eating lunch with someone"
+    },
+    {
+        "major": "840",
+        "minor": "017",
+        "name": "Band rehearsal"
+    },
+    {
+        "major": "840",
+        "minor": "018",
+        "name": "Drama rehearsal"
+    },
+    {
+        "major": "840",
+        "minor": "019",
+        "name": "Soccer practice"
+    },
+    {
+        "major": "840",
+        "minor": "020",
+        "name": "Basketball practice"
+    },
+    {
+        "major": "840",
+        "minor": "028",
+        "name": "\"You talked to the despondant Yumi\"",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "840",
+        "minor": "029",
+        "name": "Drama rehearsal; Yumi isn\"t here"
+    },
+    {
+        "major": "840",
+        "minor": "152",
+        "name": "You share a precious moment with Nanako",
+        "description": "Spending time with Nanako"
+    },
+    {
+        "major": "840",
+        "minor": "153",
+        "name": "You spend time shopping with Rise",
+        "description": "Shopping with Rise"
+    },
+    {
+        "major": "840",
+        "minor": "154",
+        "name": "You spend time walking around with Yukiko",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "840",
+        "minor": "155",
+        "name": "You spend some quality time with Yosuke",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "840",
+        "minor": "156",
+        "name": "You spend time talking with Dojima",
+        "description": "Talking with Dojima"
+    },
+    {
+        "major": "840",
+        "minor": "158",
+        "name": "You spend some quiet moments with Kanji",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "840",
+        "minor": "159",
+        "name": "You spend time training with Chie",
+        "description": "Training with Chie"
+    },
+    {
+        "major": "840",
+        "minor": "160",
+        "name": "You spend some quality time with the fox (lol)",
+        "description": "Spending time with the Fox"
+    },
+    {
+        "major": "840",
+        "minor": "161",
+        "name": "You spend time conversing with Naoto",
+        "description": "Talking with Naoto"
+    },
+    {
+        "major": "840",
+        "minor": "164",
+        "name": "You spend time conversing with Naoki",
+        "description": "Talking with Naoki"
+    },
+    {
+        "major": "840",
+        "minor": "165",
+        "name": "You spend time speaking with Hisano",
+        "description": "Talking with Hisano"
+    },
+    {
+        "major": "840",
+        "minor": "167",
+        "name": "You spent the day shopping with Ai",
+        "description": "Shopping with Ai"
+    },
+    {
+        "major": "840",
+        "minor": "169",
+        "name": "You spend valuable time with Teddie (it\"s not Teddie\"s model tho lol)",
+        "description": "Spending time with Teddie"
+    },
+    {
+        "major": "840",
+        "minor": "510",
+        "name": "You went shopping with Adachi and talked about various things",
+        "description": "Shopping with Adachi"
+    },
+    {
+        "major": "840",
+        "minor": "520",
+        "name": "You spent some time having fun with Marie",
+        "description": "Spending time with Marie"
+    },
+    {
+        "major": "845",
+        "minor": "500",
+        "name": "Yosuke night hangout",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "845",
+        "minor": "501",
+        "name": "Chie night hangout",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "845",
+        "minor": "502",
+        "name": "Yukiko night hangout",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "845",
+        "minor": "503",
+        "name": "Kanji night hangout",
+        "description": "Spending time with Kanji"
+    },
+    {
+        "major": "845",
+        "minor": "504",
+        "name": "Rise night hangout",
+        "description": "Spending time with Rise"
+    },
+    {
+        "major": "845",
+        "minor": "505",
+        "name": "Naoto night hangout",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "845",
+        "minor": "506",
+        "name": "Daisuke night hangout",
+        "description": "Spending time with Daisuke"
+    },
+    {
+        "major": "845",
+        "minor": "507",
+        "name": "Kou night hangout",
+        "description": "Spending time with Kou"
+    },
+    {
+        "major": "845",
+        "minor": "508",
+        "name": "Yumi night hangout",
+        "description": "Spending time with Yumi"
+    },
+    {
+        "major": "845",
+        "minor": "509",
+        "name": "Ayane night hangout",
+        "description": "Spending time with Ayane"
+    },
+    {
+        "major": "845",
+        "minor": "510",
+        "name": "Naoki night hangout",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "845",
+        "minor": "511",
+        "name": "Ai night hangout",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "850",
+        "minor": "001",
+        "name": "Okina with Kou and Daisuke (ENG)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "850",
+        "minor": "002",
+        "name": "Ramen with Yosuke and Chie (ENG)",
+        "description": "Eating ramen",
+        "state": "With Yosuke and Chie"
+    },
+    {
+        "major": "850",
+        "minor": "003",
+        "name": "Junes with Nanako, Yosuke, Kou, and Daisuke (ENG)",
+        "description": "Shopping at Junes with",
+        "state": "Nanako, Yosuke, Kou and Daisuke"
+    },
+    {
+        "major": "850",
+        "minor": "004",
+        "name": "Bookstore with Kou, Daisuke, and Chie (ENG)",
+        "description": "Spending time with",
+        "state": "Kou, Daisuke and Chie"
+    },
+    {
+        "major": "850",
+        "minor": "005",
+        "name": "Okina with Yumi and Daisuke (ENG)",
+        "description": "Spending time with",
+        "state": "Yumi and Daisuke"
+    },
+    {
+        "major": "850",
+        "minor": "006",
+        "name": "Okina with Ayane and Daisuke (ENG)",
+        "description": "Spending time with",
+        "state": "Ayane and Daisuke"
+    },
+    {
+        "major": "850",
+        "minor": "007",
+        "name": "Study with Kou and Daisuke at Junes (ENG)",
+        "description": "Studying with Kou and Daisuke"
+    },
+    {
+        "major": "850",
+        "minor": "008",
+        "name": "Okina with Ai and Rise (ENG)",
+        "description": "Spending time with",
+        "state": "Ai and Rise"
+    },
+    {
+        "major": "850",
+        "minor": "009",
+        "name": "Souzai Daigaku with Naoki and Ayane (ENG)",
+        "description": "Spending time with",
+        "state": "Naoki and Ayane"
+    },
+    {
+        "major": "850",
+        "minor": "010",
+        "name": "Souzai Daigaku with Naoki and Kanji (ENG)",
+        "description": "Spending time with",
+        "state": "Naoki and Kanji"
+    },
+    {
+        "major": "850",
+        "minor": "011",
+        "name": "Junes with Ai (ENG)",
+        "description": "Spending time with",
+        "state": "Ai, Teddie and Yosuke"
+    },
+    {
+        "major": "850",
+        "minor": "012",
+        "name": "Your room with Kou and Daisuke (ENG)",
+        "description": "Spending time with",
+        "state": "Daisuke, Kou and Nanako"
+    },
+    {
+        "major": "850",
+        "minor": "013",
+        "name": "Okina with Ai (ENG)",
+        "description": "Shopping with Ai"
+    },
+    {
+        "major": "850",
+        "minor": "014",
+        "name": "Croco Fur with Chie, Yukiko, Rise, and Kanji (ENG)",
+        "description": "Shopping with",
+        "state": "Chie, Yukiko, Rise and Kanji"
+    },
+    {
+        "major": "850",
+        "minor": "015",
+        "name": "Okina with Yosuke and Daisuke (ENG)",
+        "description": "Spending time with",
+        "state": "Yosuke and Daisuke"
+    },
+    {
+        "major": "850",
+        "minor": "016",
+        "name": "Studying with the Ivestigation Team w/o Kanji (ENG)",
+        "description": "Studying with the team"
+    },
+    {
+        "major": "850",
+        "minor": "065",
+        "name": "Eating at Aiya (JPN)"
+    },
+    {
+        "major": "850",
+        "minor": "081",
+        "name": "Sitting alone at Samegawa"
+    },
+    {
+        "major": "850",
+        "minor": "082",
+        "name": "Protag, Kou, and Daisuke and Samegawa",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "860",
+        "minor": "023",
+        "name": "Study in library alone",
+        "description": "Studying in the library"
+    },
+    {
+        "major": "860",
+        "minor": "032",
+        "name": "Cooking montage",
+        "description": "Making tomorrow's lunch"
+    },
+    {
+        "major": "860",
+        "minor": "033",
+        "name": "Study at desk in room",
+        "description": "Studying at home"
+    },
+    {
+        "major": "860",
+        "minor": "034",
+        "name": "Read book (blank)",
+        "description": "Reading a book"
+    },
+    {
+        "major": "860",
+        "minor": "065",
+        "name": "Eat at Aiya (regular)",
+        "description": "Eating at Aiya"
+    },
+    {
+        "major": "860",
+        "minor": "073",
+        "name": "Shopping with Nanako at Junes (concept?)",
+        "description": "Shopping with Nanako at Junes"
+    },
+    {
+        "major": "860",
+        "minor": "074",
+        "name": "Shopping with Nanako at Junes (regular)",
+        "description": "Shopping with Nanako at Junes"
+    },
+    {
+        "major": "860",
+        "minor": "082",
+        "name": "Fishing at lake minigame",
+        "description": "Fishing at Samegawa riverbank",
+        "imageKey": "fishing_riverbank",
+        "imageText": "Riverbank Fishing"
+    },
+    {
+        "major": "860",
+        "minor": "500",
+        "name": "Plant veggies w/ Nanako",
+        "description": "Tending to the garden",
+        "state": "With Nanako"
+    },
+    {
+        "major": "860",
+        "minor": "501",
+        "name": "Plant veggies w/ Nanako & Dojima",
+        "description": "Tending to the garden",
+        "state": "With Nanako and Dojima"
+    },
+    {
+        "major": "860",
+        "minor": "502",
+        "name": "Dig for bugs w/ Teddie",
+        "description": "Digging for bugs",
+        "state": "With Teddie"
+    },
+    {
+        "major": "860",
+        "minor": "503",
+        "name": "Plant veggies by yourself",
+        "description": "Tending to the garden"
+    },
+    {
+        "major": "860",
+        "minor": "510",
+        "name": "Bug catching minigame",
+        "description": "Catching bugs"
+    },
+    {
+        "major": "860",
+        "minor": "581",
+        "name": "Drive to beach for sea fishing",
+        "description": "Driving to Shichiri beach"
+    },
+    {
+        "major": "860",
+        "minor": "582",
+        "name": "Fishing at beach minigame",
+        "description": "Fishing at Shichiri beach",
+        "imageKey": "fishing_shichiri",
+        "imageText": "Shichiri Beach Fishing"
+    },
+    {
+        "major": "860",
+        "minor": "583",
+        "name": "Fish-loving man buys your haul"
+    },
+    {
+        "major": "860",
+        "minor": "584",
+        "name": "Gaze out at the ocean",
+        "description": "Gazing at the ocean"
+    },
+    {
+        "major": "860",
+        "minor": "585",
+        "name": "Go swimming at the beach",
+        "description": "Swimming at Shichiri beach"
+    },
+    {
+        "major": "860",
+        "minor": "586",
+        "name": "Fishing at beach minigame w/ rain",
+        "description": "Fishing at Shichiri beach",
+        "imageKey": "fishing_shichiri",
+        "imageText": "Shichiri Beach Fishing"
+    },
+    {
+        "major": "861",
+        "minor": "033",
+        "name": "Study in room; exams near?",
+        "description": "Studying at home"
+    },
+    {
+        "major": "862",
+        "minor": "001",
+        "name": "Hang out with Kou and Daisuke at Aiya #1 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "002",
+        "name": "Hang out with Kou and Daisuke at Aiya #2 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "003",
+        "name": "Hang out with Kou and Daisuke at Aiya #3 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "004",
+        "name": "Hang out with Kou and Daisuke at Aiya #4 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "005",
+        "name": "Hang out with Kou and Daisuke at Aiya #5 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "006",
+        "name": "Hang out with Kou and Daisuke at Aiya #6 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "007",
+        "name": "Hang out with Kou and Daisuke at Aiya #7 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "008",
+        "name": "Hang out with Kou and Daisuke at Aiya #8 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "009",
+        "name": "Hang out with Kou and Daisuke at Aiya #9 (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "021",
+        "name": "Study in library by yourself",
+        "description": "Studying in the library"
+    },
+    {
+        "major": "862",
+        "minor": "022",
+        "name": "Study in library with COMMUNITY RESERVE? (JPN)"
+    },
+    {
+        "major": "862",
+        "minor": "023",
+        "name": "Study in library, Kashiwagi visits (JPN)"
+    },
+    {
+        "major": "865",
+        "minor": "033",
+        "name": "Envelope job in your room",
+        "description": "Making envelopes"
+    },
+    {
+        "major": "865",
+        "minor": "034",
+        "name": "Translate job in your room",
+        "description": "Translating text"
+    },
+    {
+        "major": "865",
+        "minor": "035",
+        "name": "Crane job in your room",
+        "description": "Making origami cranes"
+    },
+    {
+        "major": "865",
+        "minor": "036",
+        "name": "Build a model in your room",
+        "description": "Building a model"
+    },
+    {
+        "major": "865",
+        "minor": "037",
+        "name": "Build a model in your room",
+        "description": "Building a model"
+    },
+    {
+        "major": "865",
+        "minor": "102",
+        "name": "Hospital janitor job",
+        "description": "Working as a janitor"
+    },
+    {
+        "major": "865",
+        "minor": "111",
+        "name": "Shu tutoring job"
+    },
+    {
+        "major": "865",
+        "minor": "118",
+        "name": "Daycare job",
+        "description": "Working at the daycare"
+    },
+    {
+        "major": "865",
+        "minor": "131",
+        "name": "\"I saw Shu study\" (JPN)"
+    },
+    {
+        "major": "865",
+        "minor": "500",
+        "name": "Shiroku Club dishwasher job",
+        "description": "Working as a dishwasher"
+    },
+    {
+        "major": "865",
+        "minor": "510",
+        "name": "Junes cleaning job????? Increases persona stats"
+    },
+    {
+        "major": "865",
+        "minor": "511",
+        "name": "Junes restocking job"
+    },
+    {
+        "major": "865",
+        "minor": "520",
+        "name": "Cafe Chigall drink coffee intro"
+    },
+    {
+        "major": "865",
+        "minor": "521",
+        "name": "Cafe Chigall drink coffee"
+    },
+    {
+        "major": "865",
+        "minor": "530",
+        "name": "Watch a movie with someone",
+        "description": "Watching a movie with someone"
+    },
+    {
+        "major": "865",
+        "minor": "540",
+        "name": "Drive scooter at night",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "865",
+        "minor": "541",
+        "name": "Come to the beach with (person outside gas station)",
+        "description": "Visiting Shichiri beach",
+        "state": "With someone"
+    },
+    {
+        "major": "865",
+        "minor": "542",
+        "name": "Go to the hot springs with (person outside gas station)",
+        "description": "Visiting the hoptsprings",
+        "state": "With someone"
+    },
+    {
+        "major": "865",
+        "minor": "543",
+        "name": "Ski slopes with (person outside gas station)",
+        "description": "Visiting the ski slopes",
+        "state": "With someone"
+    },
+    {
+        "major": "865",
+        "minor": "550",
+        "name": "Build a model (bugged?)",
+        "description": "Building a model"
+    },
+    {
+        "major": "865",
+        "minor": "551",
+        "name": "Build a model (bugged?)",
+        "description": "Building a model"
+    },
+    {
+        "major": "865",
+        "minor": "560",
+        "name": "Watch a borrowed DVD (JPN kinda) Gives a skill card",
+        "description": "Watching a dvd"
+    },
+    {
+        "major": "865",
+        "minor": "570",
+        "name": "Fortune drawing at shrine",
+        "description": "Drawing a fortune"
+    },
+    {
+        "major": "868",
+        "minor": "033",
+        "name": "Tanaka show in Japanese with sad music",
+        "description": "Watching Tanaka's Commodities"
+    },
+    {
+        "major": "871",
+        "minor": "001",
+        "name": "Test results posted reveal"
+    },
+    {
+        "major": "871",
+        "minor": "002",
+        "name": "Test results #1"
+    },
+    {
+        "major": "871",
+        "minor": "003",
+        "name": "Test results top 10"
+    },
+    {
+        "major": "871",
+        "minor": "004",
+        "name": "Test results average score"
+    },
+    {
+        "major": "871",
+        "minor": "005",
+        "name": "Test results... you suck"
+    },
+    {
+        "major": "872",
+        "minor": "001",
+        "name": "Letter in your Shoebox; blank"
+    },
+    {
+        "major": "880",
+        "minor": "031",
+        "name": "Nanako trades you (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "032",
+        "name": "Tanaka delivery (ENG)"
+    },
+    {
+        "major": "880",
+        "minor": "033",
+        "name": "Tanaka\"s Amazing Commodities introduction (ENG)"
+    },
+    {
+        "major": "880",
+        "minor": "500",
+        "name": "Hotspring after snow fight cutscene as text (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "501",
+        "name": "P4G\"s new dungeon introduction (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "502",
+        "name": "Ski event day 1 cutscene as text (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "503",
+        "name": "Hotsprings in the Amagi Inn cutscene as text (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "504",
+        "name": "Fireworks cutscene as text (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "505",
+        "name": "Beach scooter scene as text (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "506",
+        "name": "New Years event at the shrine cutscene as text (JPN)"
+    },
+    {
+        "major": "880",
+        "minor": "507",
+        "name": "Going to Okina for the first time with Yosuke and Kanji (ENG)",
+        "description": "Attemtping Operation Babe Hunt",
+        "state": "With Kanji and Yosuke"
+    },
+    {
+        "major": "880",
+        "minor": "508",
+        "name": "Hanako crushes Yosuke\"s bike (ENG)",
+        "description": "Attemtping Operation Babe Hunt",
+        "state": "With Kanji and Yosuke"
+    },
+    {
+        "major": "880",
+        "minor": "509",
+        "name": "\"That\"s funny. Isn\"t that funny?\" (JPN)"
+    },
+    {
+        "major": "881",
+        "minor": "500",
+        "name": "Sharing an unbrella with Chie (ENG)",
+        "description": "Walking to school",
+        "state": "With Chie"
+    },
+    {
+        "major": "881",
+        "minor": "501",
+        "name": "Sharing an unbrella with Yukiko (ENG)",
+        "description": "Walking to school",
+        "state": "With Yukiko"
+    },
+    {
+        "major": "881",
+        "minor": "502",
+        "name": "Sharing an unbrella with Rise (ENG)",
+        "description": "Walking to school",
+        "state": "With Rise"
+    },
+    {
+        "major": "881",
+        "minor": "503",
+        "name": "Kanji doesn\"t want to share an unbrella with Naoto (ENG) ",
+        "description": "Walking to school",
+        "state": "With Kanji, Naoto and Yosuke"
+    },
+    {
+        "major": "883",
+        "minor": "500",
+        "name": "Random scooter scene that plays when traveling (neighborhood)",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "883",
+        "minor": "501",
+        "name": "Random scooter scene that plays when traveling (Flood Plain)",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "883",
+        "minor": "502",
+        "name": "Traveling to the train station (ENG)"
+    },
+    {
+        "major": "883",
+        "minor": "503",
+        "name": "Traveling to the hill overlooking town (ENG)"
+    },
+    {
+        "major": "883",
+        "minor": "504",
+        "name": "Random scooter scene that plays when traveling (Tunnel)",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "883",
+        "minor": "505",
+        "name": "Random scooter scene that plays when traveling (Tunnel)",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "883",
+        "minor": "506",
+        "name": "Traveling to the waterfall at the camp (ENG)"
+    },
+    {
+        "major": "883",
+        "minor": "507",
+        "name": "Traveling to the beach at night (ENG)"
+    },
+    {
+        "major": "883",
+        "minor": "508",
+        "name": "Gazing at the ocean in the morning (ENG)"
+    },
+    {
+        "major": "883",
+        "minor": "509",
+        "name": "Exploring town on your scooter (ENG)",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "883",
+        "minor": "510",
+        "name": "Traveling to the beach in the morning (ENG)"
+    },
+    {
+        "major": "883",
+        "minor": "511",
+        "name": "Random scooter scene that plays when traveling (neighborhood)",
+        "description": "Exploring town on a scooter"
+    },
+    {
+        "major": "884",
+        "minor": "500",
+        "name": "Happy New Year to Sayoko (ENG)",
+        "description": "Wishing Sayoko a happy new year"
+    },
+    {
+        "major": "884",
+        "minor": "501",
+        "name": "Note from Sayoko on New Years (ENG)",
+        "description": "Reading a note from Sayoko"
+    },
+    {
+        "major": "884",
+        "minor": "502",
+        "name": "Happy New Year to the Fox (ENG)",
+        "description": "Wishing the fox a happy new year"
+    },
+    {
+        "major": "885",
+        "minor": "500",
+        "name": "Kou and Daisuke discuss sports club (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "501",
+        "name": "Walking with Yosuke after first time in TV // Hisano walks by (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "502",
+        "name": "Walking with Chie after saving Yukiko // Hisano walks by (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "503",
+        "name": "Two girls discuss part time jobs // Ai walks by (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "504",
+        "name": "Culture clubs are introduced (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "505",
+        "name": "Two boys discuss Yukiko getting found // Naoki walks by (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "506",
+        "name": "Walking with Yosuke // Eri walks by (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "507",
+        "name": "Walking with Yosuke after saving Yukiko // Eri walks by (ENG)"
+    },
+    {
+        "major": "885",
+        "minor": "508",
+        "name": "Walking with Chie // Naoki walks by (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "021",
+        "name": "Yosuke calls to work at Junes in the summer (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "022",
+        "name": "Kanji calls for summer classes (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "031",
+        "name": "Remedial lessons (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "032",
+        "name": "Remedial lessons (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "033",
+        "name": "Remedial lessons (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "034",
+        "name": "Remedial lessons (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "035",
+        "name": "Remedial lessons (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "041",
+        "name": "Working at Junes in the summer (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "042",
+        "name": "Working at Junes in the summer (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "043",
+        "name": "Working at Junes in the summer (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "044",
+        "name": "Working at Junes in the summer (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "045",
+        "name": "Working at Junes in the summer (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "051",
+        "name": "Phone call to the summer festival (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "061",
+        "name": "Summer festival with Ai (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "062",
+        "name": "Summer festival with Yumi (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "063",
+        "name": "Summer festival with Ayane (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "064",
+        "name": "Summer festival alone (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "065",
+        "name": "Summer festival with Chie (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "066",
+        "name": "Summer festival with Yukiko (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "067",
+        "name": "Summer festival with Rise (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "071",
+        "name": "Option to help Nanako with her homework (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "072",
+        "name": "Helping Nanako w/ Teddie and Yosuke (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "073",
+        "name": "Helping Nanako w/ Chie and Yukiko (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "074",
+        "name": "Helping Nanako w/ Kanji and Rise (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "075",
+        "name": "Helping Nanako alone (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "076",
+        "name": "Helping Nanako alone (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "077",
+        "name": "Helping Nanako alone (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "081",
+        "name": "Culture Festival tour (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "091",
+        "name": "Dummy file for going around culture festival with sports members (JPN)"
+    },
+    {
+        "major": "890",
+        "minor": "101",
+        "name": "Dummy file for going around culture festival with Ai (JPN)"
+    },
+    {
+        "major": "890",
+        "minor": "102",
+        "name": "Dummy file for going around culture festival with Yumi (JPN)"
+    },
+    {
+        "major": "890",
+        "minor": "103",
+        "name": "Dummy file for going around culture festival with Ayane (JPN)"
+    },
+    {
+        "major": "890",
+        "minor": "111",
+        "name": "Christmas Eve, 0 messages (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "121",
+        "name": "Christmas Eve with the boys (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "131",
+        "name": "Christmas Eve with Chie (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "132",
+        "name": "Christmas Eve with Yukiko (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "133",
+        "name": "Christmas Eve with Rise (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "134",
+        "name": "Christmas Eve with Naoto (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "135",
+        "name": "Christmas Eve with Ai (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "136",
+        "name": "Christmas Eve with Yumi (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "137",
+        "name": "Christmas Eve with Ayane (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "500",
+        "name": "Option to help Nanako with her homework (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "501",
+        "name": "Helping Nanako w/ Dojima (ENG)"
+    },
+    {
+        "major": "890",
+        "minor": "502",
+        "name": "Helping Nanako w/ Dojima (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "001",
+        "name": "Goodbye to Yukiko (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "002",
+        "name": "Goodbye to Sayoko (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "003",
+        "name": "Goodbye to Hisano (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "004",
+        "name": "Goodbye to Fox (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "005",
+        "name": "Goodbye to Yumi (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "006",
+        "name": "Goodbye to Ayane (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "007",
+        "name": "Goodbye to Kanji (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "008",
+        "name": "Goodbye to Margaret (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "009",
+        "name": "Goodbye to Eri (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "010",
+        "name": "Goodbye to Kou and Daisuke (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "011",
+        "name": "Goodbye to Kou and Daisuke (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "012",
+        "name": "Goodbye to Naoto (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "013",
+        "name": "Goodbye to Ai (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "014",
+        "name": "Goodbye to Teddie and Yosuke (ENG)"
+    },
+    {
+        "major": "900",
+        "minor": "015",
+        "name": "Goodbye to Dojima and Nanako (ENG)"
+    }
+]
