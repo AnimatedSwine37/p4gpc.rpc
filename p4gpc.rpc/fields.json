@@ -112,10 +112,10 @@
   {
     "major": "006",
     "minor": "007 ",
-    "name": "Daidara Metalworks",
-    "description": "Browsing Daidara Metalworks",
-    "imageKey": "daidara",
-    "imageText": "Daidara Metalworks",
+    "name": "Music Room",
+    "description": "Playing with the band",
+    "imageKey": "band",
+    "imageText": "Music Room",
     "inTVWorld": false,
     "ignoreWeather": true
   },
@@ -439,9 +439,10 @@
     "minor": "003 ",
     "name": "Junes, products shop",
     "description": "Shopping at Junes",
-    "imageKey": "junes",
+    "imageKey": "junes_groceries",
     "imageText": "Junes",
-    "inTVWorld": false
+    "inTVWorld": false,
+    "ignoreWeather": true
   },
   {
     "major": "009",
