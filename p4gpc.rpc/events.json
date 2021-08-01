@@ -135,22 +135,27 @@
     {
         "major": "105",
         "minor": "001",
-        "name": "gas station scene (ENG)"
+        "name": "gas station scene (ENG)",
+        "description": "Meeting the Dojima family"
     },
     {
         "major": "105",
         "minor": "002",
-        "name": "arriving at the Dojima residence (ENG)"
+        "name": "arriving at the Dojima residence (ENG)",
+        "description": "Meeting the Dojima family"
     },
     {
         "major": "106",
         "minor": "001",
-        "name": "first day eating with Nanako and Dojima (ENG)"
+        "name": "first day eating with Nanako and Dojima (ENG)",
+        "description": "Eating dinner",
+        "state": "With Nanako and Dojima"
     },
     {
         "major": "107",
         "minor": "001",
-        "name": "breakfast with Nanako (ENG)"
+        "name": "breakfast with Nanako (ENG)",
+        "description": "Eating breakfast with Nanako"
     },
     {
         "major": "107",
@@ -160,17 +165,21 @@
     {
         "major": "108",
         "minor": "001",
-        "name": "walking with Nanako to school (ENG)"
+        "name": "walking with Nanako to school (ENG)",
+        "description": "Walking to school",
+        "state": "With Nanako"
     },
     {
         "major": "109",
         "minor": "001",
-        "name": "Yosuke\"s first bike crash (ENG)"
+        "name": "Yosuke\"s first bike crash (ENG)",
+        "description": "Walking to school"
     },
     {
         "major": "110",
         "minor": "001",
-        "name": "Introduction to Class"
+        "name": "Introduction to Class",
+        "description": "Being introduced to class 2-2"
     },
     {
         "major": "111",
@@ -1143,13 +1152,13 @@
         "major": "530",
         "minor": "100",
         "name": "Rise SL rank #10 Lovers Route",
-        "description": "Spending time with Rise"
+        "description": "Spending special time with Rise"
     },
     {
         "major": "530",
         "minor": "110",
         "name": "Rise SL rank max Lovers Route",
-        "description": "Spending time with Rise"
+        "description": "Spending special time with Rise"
     },
     {
         "major": "535",
@@ -1159,9 +1168,236 @@
     },
     {
         "major": "540",
-        "minor": "110",
-        "name": "Yukiko SL Rank 10 Lovers",
+        "minor": "010",
+        "name": "Yukiko SL Unlock Dummy"
+    },
+    {
+        "major": "540",
+        "minor": "020",
+        "name": "Yukiko SL Rank 2",
         "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "030",
+        "name": "Yukiko SL Rank 3",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "031",
+        "name": "Another Yukiko SL Rank 3 (Unused I think, some text goes off the screen)",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "040",
+        "name": "Yukiko SL Rank 4",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "041",
+        "name": "Another Yukiko SL Rank 4, Definitely unused half is japanese. Seems similar to the actual rank 4",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "050",
+        "name": "Yukiko SL Rank 5",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "060",
+        "name": "Yukiko SL Rank 6",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "070",
+        "name": "Yukiko SL Rank 7",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "080",
+        "name": "Yukiko SL Rank 8",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "081",
+        "name": "An old guy harrases Yukiko about the inn or something (JPN)"
+    },
+    {
+        "major": "540",
+        "minor": "082",
+        "name": "Another Yukiko Rank 8. She talks about what just happened (in 540_081) (JPN)"
+    },
+    {
+        "major": "540",
+        "minor": "090",
+        "name": "Yukiko SL Rank 9",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "100",
+        "name": "Yukiko SL Rank 10 Lovers",
+        "description": "Spending special time",
+        "state": "With Yukiko"
+    },
+    {
+        "major": "540",
+        "minor": "110",
+        "name": "Yukiko Spending Time With Lover",
+        "description": "Spending special time",
+        "state": "With Yukiko"
+    },
+    {
+        "major": "545",
+        "minor": "100",
+        "name": "Yukiko SL Rank 10",
+        "description": "Spending time with Yukiko"
+    },
+    {
+        "major": "550",
+        "minor": "010",
+        "name": "This is a dummy of Yosuke Community. Yosuke community has lifted the ban. Maybe for if you broke his s link"
+    },
+    {
+        "major": "550",
+        "minor": "020",
+        "name": "Yosuke SL Rank 2",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "030",
+        "name": "Yosuke SL Rank 3",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "040",
+        "name": "Yosuke SL Rank 4",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "050",
+        "name": "Yosuke SL Rank 5",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "060",
+        "name": "Restocking at Junes with Yosuke",
+        "description": "Working at Junes",
+        "state": "With Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "061",
+        "name": "Yosuke SL Rank 6 (After working with him in 550_60)",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "070",
+        "name": "Yosuke SL Rank 7",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "080",
+        "name": "Yosuke SL Rank 8",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "090",
+        "name": "Yosuke SL Rank 9",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "550",
+        "minor": "100",
+        "name": "Yosuke SL Rank 10",
+        "description": "Spending time with Yosuke"
+    },
+    {
+        "major": "560",
+        "minor": "010",
+        "name": "Dojima SL Rank 1",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "020",
+        "name": "Dojima SL Rank 2",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "030",
+        "name": "Dojima SL Rank 3",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "040",
+        "name": "Dojima SL Rank 4",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "050",
+        "name": "Dojima SL Rank 5",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "060",
+        "name": "Dojima SL Rank 6",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "070",
+        "name": "Dojima SL Rank 7",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "080",
+        "name": "Dojima SL Rank 8",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "090",
+        "name": "Dojima SL Rank 9",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "100",
+        "name": "Dojima SL Rank 10 (Part 1)",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "101",
+        "name": "Dojima SL Rank 10 (Part 2)",
+        "description": "Spending time with Dojima"
+    },
+    {
+        "major": "560",
+        "minor": "500",
+        "name": "Dojima making you coffee",
+        "description": "Drinking coffee with Dojima"
     },
     {
         "major": "570",
@@ -1326,6 +1562,96 @@
         "description": "Spending time with Kanji"
     },
     {
+        "major": "590",
+        "minor": "010",
+        "name": "Chie SL Rank 1 Dummy Event",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "020",
+        "name": "Chie SL Rank 2",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "030",
+        "name": "Chie SL Rank 3 (With Nanako)",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "035",
+        "name": "Chie SL Rank 3 (Without Nanako)",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "040",
+        "name": "Chie SL Rank 4",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "045",
+        "name": "Chie SL Rank 4 (JPN) Seems to be the same as 590_035 but Japanese",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "050",
+        "name": "Chie SL Rank 5",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "060",
+        "name": "Chie SL Rank 6",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "070",
+        "name": "Chie SL Rank 7",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "080",
+        "name": "Chie SL Rank 8",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "090",
+        "name": "Chie SL Rank 9",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "091",
+        "name": "Another Chie SL Rank 9 (JPN) You talk to Chie at Samegawa about stuff",
+        "description": "Spending time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "100",
+        "name": "Chie SL Rank 10 Lovers",
+        "description": "Spending special time with Chie"
+    },
+    {
+        "major": "590",
+        "minor": "110",
+        "name": "Chie Spending Time With Lover",
+        "description": "Spending special time with Chie"
+    },
+    {
+        "major": "595",
+        "minor": "100",
+        "name": "Chie SL Rank 10",
+        "description": "Spending time with Chie"
+    },
+    {
         "major": "600",
         "minor": "001",
         "name": "Getting an Ema from the fox",
@@ -1345,7 +1671,7 @@
     {
         "major": "600",
         "minor": "010",
-        "name": "You have nothig to do, go out somewhere (eiher event 600_11 or 600_12)",
+        "name": "You have nothig to do, go out somewhere (eiher event 600_11 or 600_12)"
     },
     {
         "major": "600",
@@ -1426,6 +1752,385 @@
         "name": "The shrine is thriving and the fox is still working to revitalise it"
     },
     {
+        "major": "610",
+        "minor": "010",
+        "name": "Naoto SL Rank 1",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "020",
+        "name": "Naoto SL Rank 2",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "030",
+        "name": "Naoto SL Rank 3",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "031",
+        "name": "Another Naoto SL Rank 3 You share an umbrella with her walking out of school (Unused I think)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "032",
+        "name": "Another Naoto SL Rank 3 You talk to Naoto as you walk out of school in the rain (Unused I think)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "040",
+        "name": "Naoto SL Rank 4 (Part 1)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "041",
+        "name": "Naoto SL Rank 4 (Part 2)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "050",
+        "name": "Naoto SL Rank 5 (Part 1)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "051",
+        "name": "Naoto SL Rank 5 (Part 2)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "052",
+        "name": "Naoto SL Rank 5 (Part 3)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "060",
+        "name": "Naoto SL Rank 6",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "070",
+        "name": "Naoto SL Rank 7 (Part 1)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "071",
+        "name": "Naoto SL Rank 7 (Part 2)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "080",
+        "name": "Naoto SL Rank 8 (Part 1)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "081",
+        "name": "Naoto SL Rank 8 (Part 2)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "090",
+        "name": "Naoto SL Rank 9 (Part 1)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "091",
+        "name": "Naoto SL Rank 9 (Part 2)",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "100",
+        "name": "Naoto SL Rank 10 Lovers",
+        "description": "Spending special time with Naoto"
+    },
+    {
+        "major": "610",
+        "minor": "110",
+        "name": "Naoto Spending Time With Lover",
+        "description": "Spending special time with Naoto"
+    },
+    {
+        "major": "615",
+        "minor": "100",
+        "name": "Naoto SL Rank 10",
+        "description": "Spending time with Naoto"
+    },
+    {
+        "major": "620",
+        "minor": "005",
+        "name": "Kou SL Rank 1 (Part 1)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "010",
+        "name": "Kou SL Rank 1 (Part 2)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "020",
+        "name": "Kou SL Rank 2",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "030",
+        "name": "Kou SL Rank 3 (Part 1)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "031",
+        "name": "Kou SL Rank 3 (Part 2)",
+        "description": "Spending time with Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "040",
+        "name": "Kou SL Rank 4 (Part 1)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "041",
+        "name": "Kou SL Rank 4 (Part 2)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "050",
+        "name": "Kou SL Rank 5 (Part 1)"
+    },
+    {
+        "major": "620",
+        "minor": "051",
+        "name": "Kou SL Rank 5 (Part 2)",
+        "description": "Spending time with Kou"
+    },
+    {
+        "major": "620",
+        "minor": "052",
+        "name": "Kou SL Rank 5 (Part 3)",
+        "description": "Spending time with Kou"
+    },
+    {
+        "major": "620",
+        "minor": "060",
+        "name": "Kou SL Rank 6",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "070",
+        "name": "Kou SL Rank 7 (Part 1)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "071",
+        "name": "Kou SL Rank 7 (Part 2)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "080",
+        "name": "Kou SL Rank 8 (Part 1)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "081",
+        "name": "Kou SL Rank 8 (Part 2)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "090",
+        "name": "Kou Basketball Practice"
+    },
+    {
+        "major": "620",
+        "minor": "091",
+        "name": "Kou SL Rank 9",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "100",
+        "name": "Kou SL Rank 10 (Part 1)",
+        "description": "Spending time with Kou"
+    },
+    {
+        "major": "620",
+        "minor": "101",
+        "name": "Kou SL Rank 10 (Part 2)",
+        "description": "Spending time with",
+        "state": "Kou and Daisuke"
+    },
+    {
+        "major": "620",
+        "minor": "110",
+        "name": "You poured your heart into basketball practice (The regular basketball practice event with different text)"
+    },
+    {
+        "major": "630",
+        "minor": "001",
+        "name": "Talking with Kashiwagi about which clubs to join"
+    },
+    {
+        "major": "630",
+        "minor": "005",
+        "name": "Daisuke SL Rank 1 (Part 1)"
+    },
+    {
+        "major": "630",
+        "minor": "010",
+        "name": "Daisuke SL Rank 1 (Part 2)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "020",
+        "name": "Daisuke SL Rank 2 (Part 1)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "021",
+        "name": "Daisuke SL Rank 2 (Part 2)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "030",
+        "name": "Daisuke SL Rank 3",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "040",
+        "name": "Daisuke SL Rank 4",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "050",
+        "name": "Daisuke SL Rank 5 (Part 1)",
+        "description": "Spending time with Daisuke"
+    },
+    {
+        "major": "630",
+        "minor": "051",
+        "name": "Daisuke SL Rank 5 (Part 2)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "060",
+        "name": "Daisuke SL Rank 6",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "070",
+        "name": "Daisuke SL Rank 7 (Part 1)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "071",
+        "name": "Daisuke SL Rank 7 (Part 2)",
+        "description": "Spending time with Kou"
+    },
+    {
+        "major": "630",
+        "minor": "080",
+        "name": "Daisuke SL Rank 8 (Part 1)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "081",
+        "name": "Daisuke SL Rank 8 (Part 2)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "082",
+        "name": "Daisuke SL Rank 8 (Part 3)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "090",
+        "name": "Daisuke SL Rank 9 (Part 1)",
+        "description": "Spending time with Daisuke"
+    },
+    {
+        "major": "630",
+        "minor": "091",
+        "name": "Daisuke SL Rank 9 (Part 2)",
+        "description": "Spending time with Daisuke"
+    },
+    {
+        "major": "630",
+        "minor": "100",
+        "name": "Daisuke SL Rank 10 (Part 1)",
+        "description": "Spending time with Daisuke"
+    },
+    {
+        "major": "630",
+        "minor": "101",
+        "name": "Daisuke SL Rank 10 (Part 2)",
+        "description": "Spending time with",
+        "state": "Daisuke and Kou"
+    },
+    {
+        "major": "630",
+        "minor": "110",
+        "name": "Soccer practice with max fellow athletes (slightly different text)"
+    },
+    {
         "major": "640",
         "minor": "003",
         "name": "Talking with rank 0 Naoki, called to student health association meeting",
@@ -1441,6 +2146,72 @@
         "major": "640",
         "minor": "005",
         "name": "Talking with Naoki after the meeting (follows above event)",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "006",
+        "name": "You walk home from school using Naoki's umbrella",
+        "description": "Walking home from school"
+    },
+    {
+        "major": "640",
+        "minor": "010",
+        "name": "Naoki SL Rank 1",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "020",
+        "name": "Naoki SL Rank 2",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "030",
+        "name": "Naoki SL Rank 3",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "040",
+        "name": "Naoki SL Rank 4",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "050",
+        "name": "Naoki SL Rank 5",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "060",
+        "name": "Naoki SL Rank 6",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "070",
+        "name": "Naoki SL Rank 7",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "080",
+        "name": "Naoki SL Rank 8",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "090",
+        "name": "Naoki SL Rank 9",
+        "description": "Spending time with Naoki"
+    },
+    {
+        "major": "640",
+        "minor": "100",
+        "name": "Naoki SL Rank 10",
         "description": "Spending time with Naoki"
     },
     {
@@ -1502,6 +2273,297 @@
         "minor": "100",
         "name": "Hisano SL Rank 10",
         "description": "Spending time with Hisano"
+    },
+    {
+        "major": "660",
+        "minor": "001",
+        "name": "Turning in Margaret's Request (same event for all of them, the flowscript varies the text)",
+        "description": "Turning in Margaret's request"
+    },
+    {
+        "major": "660",
+        "minor": "010",
+        "name": "Margaret SL Rank 1",
+        "description": "Spending time with Margaret"
+    },
+    {
+        "major": "660",
+        "minor": "020",
+        "name": "Gas station clerk community rank 2 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "030",
+        "name": "Gas station clerk community rank 3 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "040",
+        "name": "Gas station clerk community rank 4 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "050",
+        "name": "Gas station clerk community rank 5 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "060",
+        "name": "Gas station clerk community rank 6 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "070",
+        "name": "Gas station clerk community rank 7 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "080",
+        "name": "Gas station clerk community rank 8 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "090",
+        "name": "Gas station clerk community rank 9 dummy"
+    },
+    {
+        "major": "660",
+        "minor": "100",
+        "name": "Gas station clerk community rank 10 dummy"
+    },
+    {
+        "major": "670",
+        "minor": "004",
+        "name": "Ai asks you if you want to ditch class this afternoon"
+    },
+    {
+        "major": "670",
+        "minor": "005",
+        "name": "Ai asks you if you want to ditch class right now"
+    },
+    {
+        "major": "670",
+        "minor": "010",
+        "name": "Ai SL Rank 1",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "020",
+        "name": "Ai SL Rank 2 (Part 1)",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "021",
+        "name": "Ai SL Rank 2 (Part 2)",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "030",
+        "name": "Ai SL Rank 3",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "040",
+        "name": "Ai SL Rank 4",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "050",
+        "name": "Ai SL Rank 5",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "060",
+        "name": "Ai SL Rank 6 (Part 1)",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "061",
+        "name": "Ai SL Rank 6 (Part 2)",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "062",
+        "name": "Ai SL Rank 6 (Part 3)",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "070",
+        "name": "Ai SL Rank 7 Fake Lovers",
+        "description": "Spending special time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "080",
+        "name": "Ai SL Rank 8 Fake Lovers",
+        "description": "Spending special time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "090",
+        "name": "Ai SL Rank 9 Fake Lovers",
+        "description": "Spending special time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "100",
+        "name": "Ai SL Rank 10 Fake Lovers",
+        "description": "Spending special time with Ai"
+    },
+    {
+        "major": "670",
+        "minor": "110",
+        "name": "Ai Spending Time With Lover",
+        "description": "Spending special time with Ai"
+    },
+    {
+        "major": "675",
+        "minor": "070",
+        "name": "Ai SL Rank 7",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "675",
+        "minor": "080",
+        "name": "Ai SL Rank 8",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "675",
+        "minor": "090",
+        "name": "Ai SL Rank 9",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "675",
+        "minor": "100",
+        "name": "Ai SL Rank 10",
+        "description": "Spending time with Ai"
+    },
+    {
+        "major": "680",
+        "minor": "010",
+        "name": "Shu SL Rank 1",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "020",
+        "name": "Shu SL Rank 2",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "030",
+        "name": "Shu SL Rank 3",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "040",
+        "name": "Shu SL Rank 4",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "050",
+        "name": "Shu SL Rank 5",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "060",
+        "name": "Shu SL Rank 6",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "070",
+        "name": "Shu SL Rank 7",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "080",
+        "name": "Shu SL Rank 8",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "090",
+        "name": "Shu SL Rank 9, you go home for the day (doesn't rank up until next event)",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "095",
+        "name": "Shu SL Rank 9",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "680",
+        "minor": "100",
+        "name": "Shu SL Rank 10",
+        "description": "Spending time with Shu"
+    },
+    {
+        "major": "690",
+        "minor": "010",
+        "name": "Teddie SL Rank 1 Dummy (JPN) (You and Kou sit together at Junes)"
+    },
+    {
+        "major": "690",
+        "minor": "020",
+        "name": "Teddie SL Rank 2 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "030",
+        "name": "Teddie SL Rank 3 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "040",
+        "name": "Teddie SL Rank 4 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "050",
+        "name": "Teddie SL Rank 5 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "060",
+        "name": "Teddie SL Rank 6 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "070",
+        "name": "Teddie SL Rank 7 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "080",
+        "name": "Teddie SL Rank 8 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "090",
+        "name": "Teddie SL Rank 9 Dummy (JPN)"
+    },
+    {
+        "major": "690",
+        "minor": "100",
+        "name": "Teddie SL Rank 10 Dummy (JPN)"
     },
     {
         "major": "700",
@@ -1603,7 +2665,8 @@
     {
         "major": "700",
         "minor": "101",
-        "name": "Yumi goes to your room for the first time (ENG)"
+        "name": "Yumi SL Rank 10 Lovers (Right after 700_100) (ENG)",
+        "description": "Spending special time with Yumi"
     },
     {
         "major": "700",
@@ -1613,7 +2676,8 @@
     {
         "major": "700",
         "minor": "111",
-        "name": "Yumi goes to your room (ENG)"
+        "name": "Yumi Spending Time With Lover",
+        "description": "Spending special time with Yumi"
     },
     {
         "major": "710",
@@ -1700,24 +2764,25 @@
         "major": "710",
         "minor": "090",
         "name": "Ayane\"s SL rank 9 romance (ENG)",
-        "description": "Spending time with Ayane"
+        "description": "Spending special time with Ayane"
     },
     {
         "major": "710",
         "minor": "091",
         "name": "After school with Ayane (ENG)",
-        "description": "Spending time with Ayane"
+        "description": "Spending special time with Ayane"
     },
     {
         "major": "710",
         "minor": "092",
         "name": "Walking with Ayane (ENG)",
-        "description": "Spending time with Ayane"
+        "description": "Spending special time with Ayane"
     },
     {
         "major": "710",
         "minor": "093",
-        "name": "Ayane goes to your room (ENG)"
+        "name": "Ayane goes to your room (ENG)",
+        "description": "Spending special time with Ayane"
     },
     {
         "major": "710",
@@ -1728,7 +2793,7 @@
         "major": "710",
         "minor": "101",
         "name": "Ayane\"s SL rank 10 romance (ENG)",
-        "description": "Spending time with Ayane"
+        "description": "Spending special time with Ayane"
     },
     {
         "major": "710",
@@ -1738,7 +2803,8 @@
     {
         "major": "710",
         "minor": "111",
-        "name": "Ayane goes to your room (ENG)"
+        "name": "Ayane Spending Time With Lover",
+        "description": "Spending special time with Ayane"
     },
     {
         "major": "715",
@@ -2066,12 +3132,14 @@
     {
         "major": "740",
         "minor": "590",
-        "name": "Marie SL Max (Lovers Route)"
+        "name": "Marie SL Max (Lovers Route)",
+        "description": "Spending special time with Marie"
     },
     {
         "major": "745",
         "minor": "590",
-        "name": "Marie SL Max (Regular)"
+        "name": "Marie SL Max (Regular)",
+        "description": "Spending time with Marie"
     },
     {
         "major": "745",
@@ -2449,7 +3517,9 @@
         "major": "860",
         "minor": "023",
         "name": "Study in library alone",
-        "description": "Studying in the library"
+        "description": "Studying in the library",
+        "imageKey": "studying_library",
+        "imageText": "Studying At Library"
     },
     {
         "major": "860",
@@ -2461,13 +3531,17 @@
         "major": "860",
         "minor": "033",
         "name": "Study at desk in room",
-        "description": "Studying at home"
+        "description": "Studying at home",
+        "imageKey": "studying_home",
+        "imageText": "Studying At Home"
     },
     {
         "major": "860",
         "minor": "034",
         "name": "Read book (blank)",
-        "description": "Reading a book"
+        "description": "Reading a book",
+        "imageKey": "reading_home",
+        "imageText": "Reading"
     },
     {
         "major": "860",
@@ -2500,27 +3574,35 @@
         "minor": "500",
         "name": "Plant veggies w/ Nanako",
         "description": "Tending to the garden",
-        "state": "With Nanako"
+        "state": "With Nanako",
+        "imageKey": "gardening",
+        "imageText": "Gardening"
     },
     {
         "major": "860",
         "minor": "501",
         "name": "Plant veggies w/ Nanako & Dojima",
         "description": "Tending to the garden",
-        "state": "With Nanako and Dojima"
+        "state": "With Nanako and Dojima",
+        "imageKey": "gardening",
+        "imageText": "Gardening"
     },
     {
         "major": "860",
         "minor": "502",
         "name": "Dig for bugs w/ Teddie",
         "description": "Digging for bugs",
-        "state": "With Teddie"
+        "state": "With Teddie",
+        "imageKey": "gardening",
+        "imageText": "Gardening"
     },
     {
         "major": "860",
         "minor": "503",
         "name": "Plant veggies by yourself",
-        "description": "Tending to the garden"
+        "description": "Tending to the garden",
+        "imageKey": "gardening",
+        "imageText": "Gardening"
     },
     {
         "major": "860",
@@ -2571,7 +3653,9 @@
         "major": "861",
         "minor": "033",
         "name": "Study in room; exams near?",
-        "description": "Studying at home"
+        "description": "Studying at home",
+        "imageKey": "studying_home",
+        "imageText": "Studying At Home"
     },
     {
         "major": "862",
@@ -2622,7 +3706,9 @@
         "major": "862",
         "minor": "021",
         "name": "Study in library by yourself",
-        "description": "Studying in the library"
+        "description": "Studying in the library",
+        "imageKey": "studying_library",
+        "imageText": "Studying At Library"
     },
     {
         "major": "862",
@@ -2638,31 +3724,41 @@
         "major": "865",
         "minor": "033",
         "name": "Envelope job in your room",
-        "description": "Making envelopes"
+        "description": "Making envelopes",
+        "imageKey": "making_envelopes",
+        "imageText": "Envelope Making"
     },
     {
         "major": "865",
         "minor": "034",
         "name": "Translate job in your room",
-        "description": "Translating text"
+        "description": "Translating text",
+        "imageKey": "translation",
+        "imageText": "Translating Text"
     },
     {
         "major": "865",
         "minor": "035",
         "name": "Crane job in your room",
-        "description": "Making origami cranes"
+        "description": "Making origami cranes",
+        "imageKey": "making_origami",
+        "imageText": "Origami Crane Making"
     },
     {
         "major": "865",
         "minor": "036",
         "name": "Build a model in your room",
-        "description": "Building a model"
+        "description": "Building a model",
+        "imageKey": "making_a_model",
+        "imageText": "Model Making"
     },
     {
         "major": "865",
         "minor": "037",
         "name": "Build a model in your room",
-        "description": "Building a model"
+        "description": "Building a model",
+        "imageKey": "making_a_model",
+        "imageText": "Model Making"
     },
     {
         "major": "865",
@@ -2749,13 +3845,17 @@
         "major": "865",
         "minor": "550",
         "name": "Build a model (bugged?)",
-        "description": "Building a model"
+        "description": "Building a model",
+        "imageKey": "making_a_model",
+        "imageText": "Model Making"
     },
     {
         "major": "865",
         "minor": "551",
         "name": "Build a model (bugged?)",
-        "description": "Building a model"
+        "description": "Building a model",
+        "imageKey": "making_a_model",
+        "imageText": "Model Making"
     },
     {
         "major": "865",
@@ -2939,17 +4039,20 @@
     {
         "major": "883",
         "minor": "506",
-        "name": "Traveling to the waterfall at the camp (ENG)"
+        "name": "Traveling to the waterfall at the camp (Scooter Ride)",
+        "description": "Exploring town on a scooter"
     },
     {
         "major": "883",
         "minor": "507",
-        "name": "Traveling to the beach at night (ENG)"
+        "name": "Traveling to the beach at night (Scooter Ride)",
+        "description": "Exploring town on a scooter"
     },
     {
         "major": "883",
         "minor": "508",
-        "name": "Gazing at the ocean in the morning (ENG)"
+        "name": "First scooter ride to the beach",
+        "description": "Exploring town on a scooter"
     },
     {
         "major": "883",
@@ -2960,7 +4063,8 @@
     {
         "major": "883",
         "minor": "510",
-        "name": "Traveling to the beach in the morning (ENG)"
+        "name": "Traveling to the beach in the morning (ENG)",
+        "description": "Exploring town on a scooter"
     },
     {
         "major": "883",
@@ -3044,52 +4148,72 @@
     {
         "major": "890",
         "minor": "031",
-        "name": "Remedial lessons (ENG)"
+        "name": "Remedial lessons (ENG)",
+        "description": "Attending remidial lessons",
+        "state": "With Kanji and Rise"
     },
     {
         "major": "890",
         "minor": "032",
-        "name": "Remedial lessons (ENG)"
+        "name": "Remedial lessons (ENG)",
+        "description": "Attending remidial lessons",
+        "state": "With Kanji and Rise"
     },
     {
         "major": "890",
         "minor": "033",
-        "name": "Remedial lessons (ENG)"
+        "name": "Remedial lessons (ENG)",
+        "description": "Attending remidial lessons",
+        "state": "With Kanji and Rise"
     },
     {
         "major": "890",
         "minor": "034",
-        "name": "Remedial lessons (ENG)"
+        "name": "Remedial lessons (ENG)",
+        "description": "Attending remidial lessons",
+        "state": "With Kanji and Rise"
     },
     {
         "major": "890",
         "minor": "035",
-        "name": "Remedial lessons (ENG)"
+        "name": "Remedial lessons (ENG)",
+        "description": "Attending remidial lessons",
+        "state": "With Kanji and Rise"
     },
     {
         "major": "890",
         "minor": "041",
-        "name": "Working at Junes in the summer (ENG)"
+        "name": "Working at Junes in the summer (ENG)",
+        "description": "Working at Junes",
+        "state": "With Yosuke, Chie and Teddie"
     },
     {
         "major": "890",
         "minor": "042",
-        "name": "Working at Junes in the summer (ENG)"
+        "name": "Working at Junes in the summer (ENG)",
+        "description": "Working at Junes",
+        "state": "With Yosuke, Chie and Teddie"
     },
     {
         "major": "890",
         "minor": "043",
-        "name": "Working at Junes in the summer (ENG)"
+        "name": "Working at Junes in the summer (ENG)",
+        "description": "Working at Junes",
+        "state": "With Yosuke and Teddie"
     },
     {
         "major": "890",
         "minor": "044",
-        "name": "Working at Junes in the summer (ENG)"
+        "name": "Working at Junes in the summer (ENG)",
+        "description": "Working at Junes",
+        "state": "With Yosuke, Chie and Teddie"
     },
     {
         "major": "890",
         "minor": "045",
-        "name": "Working at Junes in the summer (ENG)"
+        "name": "Working at Junes in the summer (ENG)",
+        "description": "Working at Junes",
+        "state": "With Yosuke, Chie and Teddie"
     },
     {
         "major": "890",
@@ -3099,37 +4223,51 @@
     {
         "major": "890",
         "minor": "061",
-        "name": "Summer festival with Ai (ENG)"
+        "name": "Summer festival with Ai (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "With Ai"
     },
     {
         "major": "890",
         "minor": "062",
-        "name": "Summer festival with Yumi (ENG)"
+        "name": "Summer festival with Yumi (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "With Yumi"
     },
     {
         "major": "890",
         "minor": "063",
-        "name": "Summer festival with Ayane (ENG)"
+        "name": "Summer festival with Ayane (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "With Ayane"
     },
     {
         "major": "890",
         "minor": "064",
-        "name": "Summer festival alone (ENG)"
+        "name": "Summer festival alone (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "Alone"
     },
     {
         "major": "890",
         "minor": "065",
-        "name": "Summer festival with Chie (ENG)"
+        "name": "Summer festival with Chie (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "With Chie"
     },
     {
         "major": "890",
         "minor": "066",
-        "name": "Summer festival with Yukiko (ENG)"
+        "name": "Summer festival with Yukiko (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "With Yukiko"
     },
     {
         "major": "890",
         "minor": "067",
-        "name": "Summer festival with Rise (ENG)"
+        "name": "Summer festival with Rise (ENG)",
+        "description": "Enjoying the summer festival",
+        "state": "With Rise"
     },
     {
         "major": "890",
@@ -3139,37 +4277,48 @@
     {
         "major": "890",
         "minor": "072",
-        "name": "Helping Nanako w/ Teddie and Yosuke (ENG)"
+        "name": "Helping Nanako w/ Teddie and Yosuke (ENG)",
+        "description": "Helping Nanako with her homework",
+        "state": "With Teddie and Yosuke"
     },
     {
         "major": "890",
         "minor": "073",
-        "name": "Helping Nanako w/ Chie and Yukiko (ENG)"
+        "name": "Helping Nanako w/ Chie and Yukiko (ENG)",
+        "description": "Helping Nanako with her homework",
+        "state": "With Chie and Yukiko"
     },
     {
         "major": "890",
         "minor": "074",
-        "name": "Helping Nanako w/ Kanji and Rise (ENG)"
+        "name": "Helping Nanako w/ Kanji and Rise (ENG)",
+        "description": "Helping Nanako with her homework",
+        "state": "With Kanji and Rise"
     },
     {
         "major": "890",
         "minor": "075",
-        "name": "Helping Nanako alone (ENG)"
+        "name": "Helping Nanako alone (ENG)",
+        "description": "Helping Nanako with her homework"
     },
     {
         "major": "890",
         "minor": "076",
-        "name": "Helping Nanako alone (ENG)"
+        "name": "Helping Nanako alone (ENG)",
+        "description": "Helping Nanako with her homework"
     },
     {
         "major": "890",
         "minor": "077",
-        "name": "Helping Nanako alone (ENG)"
+        "name": "Helping Nanako alone (ENG)",
+        "description": "Helping Nanako with her homework"
     },
     {
         "major": "890",
         "minor": "081",
-        "name": "Culture Festival tour (ENG)"
+        "name": "Culture Festival tour (ENG)",
+        "description": "Enjoying the culture festival",
+        "state": "With friends"
     },
     {
         "major": "890",
@@ -3199,42 +4348,58 @@
     {
         "major": "890",
         "minor": "121",
-        "name": "Christmas Eve with the boys (ENG)"
+        "name": "Christmas Eve with the boys (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Yosuke, Kanji and Teddie"
     },
     {
         "major": "890",
         "minor": "131",
-        "name": "Christmas Eve with Chie (ENG)"
+        "name": "Christmas Eve with Chie (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Chie"
     },
     {
         "major": "890",
         "minor": "132",
-        "name": "Christmas Eve with Yukiko (ENG)"
+        "name": "Christmas Eve with Yukiko (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Yukiko"
     },
     {
         "major": "890",
         "minor": "133",
-        "name": "Christmas Eve with Rise (ENG)"
+        "name": "Christmas Eve with Rise (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Rise"
     },
     {
         "major": "890",
         "minor": "134",
-        "name": "Christmas Eve with Naoto (ENG)"
+        "name": "Christmas Eve with Naoto (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Naoto"
     },
     {
         "major": "890",
         "minor": "135",
-        "name": "Christmas Eve with Ai (ENG)"
+        "name": "Christmas Eve with Ai (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Ai"
     },
     {
         "major": "890",
         "minor": "136",
-        "name": "Christmas Eve with Yumi (ENG)"
+        "name": "Christmas Eve with Yumi (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Yumi"
     },
     {
         "major": "890",
         "minor": "137",
-        "name": "Christmas Eve with Ayane (ENG)"
+        "name": "Christmas Eve with Ayane (ENG)",
+        "description": "Celebrating Christmas Eve",
+        "state": "With Ayane"
     },
     {
         "major": "890",
@@ -3244,86 +4409,107 @@
     {
         "major": "890",
         "minor": "501",
-        "name": "Helping Nanako w/ Dojima (ENG)"
+        "name": "Helping Nanako w/ Dojima (ENG)",
+        "description": "Helping Nanako with her homework",
+        "state": "With Dojima"
     },
     {
         "major": "890",
         "minor": "502",
-        "name": "Helping Nanako w/ Dojima (ENG)"
+        "name": "Helping Nanako w/ Dojima (ENG)",
+        "description": "Helping Nanako with her homework",
+        "state": "With Dojima"
     },
     {
         "major": "900",
         "minor": "001",
-        "name": "Goodbye to Yukiko (ENG)"
+        "name": "Goodbye to Yukiko (ENG)",
+        "description": "Saying goodbye to Yukiko"
     },
     {
         "major": "900",
         "minor": "002",
-        "name": "Goodbye to Sayoko (ENG)"
+        "name": "Goodbye to Sayoko (ENG)",
+        "description": "Saying goodbye to Sayoko"
     },
     {
         "major": "900",
         "minor": "003",
-        "name": "Goodbye to Hisano (ENG)"
+        "name": "Goodbye to Hisano (ENG)",
+        "description": "Saying goodbye to Hisano"
     },
     {
         "major": "900",
         "minor": "004",
-        "name": "Goodbye to Fox (ENG)"
+        "name": "Goodbye to Fox (ENG)",
+        "description": "Saying goodbye to the Fox"
     },
     {
         "major": "900",
         "minor": "005",
-        "name": "Goodbye to Yumi (ENG)"
+        "name": "Goodbye to Yumi (ENG)",
+        "description": "Saying goodbye to Yumi"
     },
     {
         "major": "900",
         "minor": "006",
-        "name": "Goodbye to Ayane (ENG)"
+        "name": "Goodbye to Ayane (ENG)",
+        "description": "Saying goodbye to Ayane"
     },
     {
         "major": "900",
         "minor": "007",
-        "name": "Goodbye to Kanji (ENG)"
+        "name": "Goodbye to Kanji (ENG)",
+        "description": "Saying goodbye to Kanji"
     },
     {
         "major": "900",
         "minor": "008",
-        "name": "Goodbye to Margaret (ENG)"
+        "name": "Goodbye to Margaret (ENG)",
+        "description": "Saying goodbye to Margaret"
     },
     {
         "major": "900",
         "minor": "009",
-        "name": "Goodbye to Eri (ENG)"
+        "name": "Goodbye to Eri (ENG)",
+        "description": "Saying goodbye to Eri"
     },
     {
         "major": "900",
         "minor": "010",
-        "name": "Goodbye to Kou and Daisuke (ENG)"
+        "name": "Goodbye to Kou and Daisuke (ENG)",
+        "description": "Saying goodbye to Kou & Daisuke"
     },
     {
         "major": "900",
         "minor": "011",
-        "name": "Goodbye to Kou and Daisuke (ENG)"
+        "name": "Goodbye to Kou and Daisuke (ENG)",
+        "description": "Saying goodbye to Daisuke & Kou"
     },
     {
         "major": "900",
         "minor": "012",
-        "name": "Goodbye to Naoto (ENG)"
+        "name": "Goodbye to Naoto (ENG)",
+        "description": "Saying goodbye to Naoto"
     },
     {
         "major": "900",
         "minor": "013",
-        "name": "Goodbye to Ai (ENG)"
+        "name": "Goodbye to Ai (ENG)",
+        "description": "Saying goodbye to Ai"
     },
     {
         "major": "900",
         "minor": "014",
-        "name": "Goodbye to Teddie and Yosuke (ENG)"
+        "name": "Goodbye to Teddie and Yosuke (ENG)",
+        "description": "Saying goodbye",
+        "state": "To Teddie and Yosuke"
     },
     {
         "major": "900",
         "minor": "015",
-        "name": "Goodbye to Dojima and Nanako (ENG)"
+        "name": "Goodbye to Dojima and Nanako (ENG)",
+        "description": "Saying goodbye",
+        "state": "To Dojima and Nanako"
     }
 ]
