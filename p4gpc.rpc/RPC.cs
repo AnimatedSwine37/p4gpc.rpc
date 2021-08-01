@@ -177,7 +177,7 @@ namespace p4gpc.rpc
                     description = foundEvent.description;
 
                     if (foundEvent.state != null)
-                        state = foundField.state;
+                        state = foundEvent.state;
                     if(foundEvent.imageKey != null)
                     {
                         imageKey = foundEvent.imageKey;
