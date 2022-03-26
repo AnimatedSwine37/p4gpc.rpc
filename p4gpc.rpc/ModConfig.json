@@ -2,7 +2,7 @@
   "ModId": "p4gpc.rpc",
   "ModName": "Persona 4 Golden RPC",
   "ModAuthor": "AnimatedSwine37",
-  "ModVersion": "1.1.0",
+  "ModVersion": "1.1.1",
   "ModDescription": "Adds discord rich presence support to Persona 4 Golden PC",
   "ModDll": "p4gpc.rpc.dll",
   "ModIcon": "Preview.png",
