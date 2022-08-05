@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\Programs\Reloaded II\Mods\p4gpc.rpc\</OutputPath>
+    <OutputPath>$(RELOADEDIIMODS)\p4gpc.rpc\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
