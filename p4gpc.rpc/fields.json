@@ -919,8 +919,8 @@
   {
     "major": "024",
     "minor": "001 ",
-    "name": "Bathtub entrance",
-    "description": "Preparing to enter In the Secret Lab",
+    "name": "Bathhouse entrance",
+    "description": "Preparing to enter the bathhouse",
     "imageKey": "bathhouse",
     "imageText": "Bathhouse Entrance",
     "inTVWorld": true
@@ -928,8 +928,8 @@
   {
     "major": "024",
     "minor": "002 ",
-    "name": "Bathtub Final floor",
-    "description": "Fighting through In the Secret Lab",
+    "name": "Bathhouse Final floor",
+    "description": "Fighting through the bathhouse",
     "imageKey": "bathhouse",
     "imageText": "Bathhouse Entrance",
     "inTVWorld": true
@@ -938,7 +938,7 @@
     "major": "061",
     "minor": "002 ",
     "name": "Bathhouse Floor 3",
-    "description": "Fighting through In the Secret Lab",
+    "description": "Fighting through the bathhouse",
     "imageKey": "bathhouse",
     "imageText": "Bathhouse Entrance",
     "inTVWorld": true
@@ -947,7 +947,7 @@
     "major": "061",
     "minor": "003 ",
     "name": "Bathhouse Floor 7",
-    "description": "Fighting through In the Secret Lab",
+    "description": "Fighting through the bathhouse",
     "imageKey": "bathhouse",
     "imageText": "Bathhouse Entrance",
     "inTVWorld": true
@@ -956,7 +956,7 @@
     "major": "025",
     "minor": "001 ",
     "name": "Club entrance",
-    "description": "Preparing to enter the Club",
+    "description": "Preparing to enter the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inTVWorld": true
@@ -965,7 +965,7 @@
     "major": "025",
     "minor": "002 ",
     "name": "Club final floor",
-    "description": "Fighting through the Club",
+    "description": "Fighting through the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inTVWorld": true
@@ -1158,7 +1158,7 @@
     "major": "041",
     "minor": "000",
     "name": "Bathhouse",
-    "description": "Fighting through the Secret Lab",
+    "description": "Fighting through the bathhouse",
     "imageKey": "bathhouse",
     "imageText": "Bathhouse Entrance",
     "inTVWorld": true
@@ -1167,7 +1167,7 @@
     "major": "042",
     "minor": "000 ",
     "name": "Marukyu Striptease",
-    "description": "Fighting through the Club",
+    "description": "Fighting through the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inTVWorld": true
@@ -1176,7 +1176,7 @@
     "major": "062",
     "minor": "002 ",
     "name": "Marukyu Striptease",
-    "description": "Fighting through the Club",
+    "description": "Fighting through the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inTVWorld": true
@@ -1185,7 +1185,7 @@
     "major": "062",
     "minor": "003 ",
     "name": "Marukyu Striptease",
-    "description": "Fighting through the Club",
+    "description": "Fighting through the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inTVWorld": true
@@ -1385,7 +1385,7 @@
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inBattle": true,
-    "state": "In the Club",
+    "state": "In the club",
     "inTVWorld": true
   },
   {
@@ -1393,7 +1393,7 @@
     "minor": "002",
     "name": "Shadow Rise Battle Field",
     "description": "Fighting a boss",
-    "state": "In the Club",
+    "state": "In the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inBattle": true,
@@ -1404,7 +1404,7 @@
     "minor": "003",
     "name": "Shadow Teddie Battle Field",
     "description": "Fighting a boss",
-    "state": "In the Club",
+    "state": "In the club",
     "imageKey": "marukyu_striptease",
     "imageText": "Club Entrance",
     "inBattle": true,
