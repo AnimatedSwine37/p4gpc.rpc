@@ -45,7 +45,9 @@ namespace p4gpc.rpc
         /// </summary>
         public void Start(IModLoaderV1 loader)
         {
-            //Debugger.Launch();
+#if DEBUG
+            Debugger.Launch();
+#endif
             _modLoader = (IModLoader)loader;
             _logger = (ILogger)_modLoader.GetLogger();
             //_modLoader.GetController<IReloadedHooks>().TryGetTarget(out _hooks);
