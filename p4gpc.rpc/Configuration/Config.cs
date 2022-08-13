@@ -26,5 +26,9 @@ namespace p4gpc.rpc.Configuration
         [DisplayName("Elapsed Battle Time")]
         [Description("When in battle elapsed time shows how long the battle has been going for.")]
         public bool BattleTime { get; set; } = true;
+
+        [DisplayName("Connection Retry Delay")]
+        [Description("How long the mod will wait to retry an unsuccessful rpc connection in seconds.")]
+        public int RetryDelay { get; set; } = 30;
     }
 }

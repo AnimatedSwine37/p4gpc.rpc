@@ -61,7 +61,7 @@ namespace p4gpc.rpc
                 if (TryInitDiscord())
                     _timer = new System.Threading.Timer(OnTick, null, 0, 5000);
                 else
-                    _timer = new System.Threading.Timer(OnTick, null, 30000, 30000);
+                    _timer = new System.Threading.Timer(OnTick, null, Configuration.RetryDelay * 1000, Configuration.RetryDelay * 1000);
             }
             else
             {
@@ -86,7 +86,7 @@ namespace p4gpc.rpc
             }
             catch (Exception e)
             {
-                _logger.WriteLine($"[RPC] Error initialising RPC retrying in 30 seconds. Please make sure Discord is running: {e.Message}", System.Drawing.Color.Red);
+                _logger.WriteLine($"[RPC] Error initialising RPC retrying in {Configuration.RetryDelay} second{(Configuration.RetryDelay != 1 ? "s" : "")}. Please make sure Discord is running: {e.Message}", System.Drawing.Color.Red);
                 return false;
             }
         }
@@ -109,7 +109,7 @@ namespace p4gpc.rpc
                 if (TryInitDiscord())
                     _timer.Change(0, 5000);
                 else
-                    _timer.Change(30000, 30000);
+                    _timer.Change(Configuration.RetryDelay*1000, Configuration.RetryDelay*1000);
             }
         }
 
