@@ -25,7 +25,7 @@ namespace p4gpc.rpc
         private long _battleStartTime = 0;
         private string _modDirectory;
         private Field[] _fields;
-        private Event[] _events; 
+        private Event[] _events;
         private int _tickCounter = 0;
         private Field _previousField;
 
@@ -44,6 +44,7 @@ namespace p4gpc.rpc
 
         public RPC(ILogger logger, Config configuration, string modDirectory)
         {
+            _rpcEnabled = true;
             Configuration = configuration;
             _logger = logger;
             _logger.WriteLine("[RPC] Initialising RPC");
@@ -51,41 +52,42 @@ namespace p4gpc.rpc
             using var thisProcess = Process.GetCurrentProcess();
             _baseAddress = thisProcess.MainModule.BaseAddress.ToInt32();
 
-            // Activate the get weather hook
-            //_weatherHook = new WeatherHook(_logger, hooks, _baseAddress);
-
             _fields = (Field[])LoadFile("fields.json", typeof(Field[]));
             _events = (Event[])LoadFile("events.json", typeof(Event[]));
             // If it failed to load fields, the mod can't work
             if (_fields != null && _events != null)
             {
-                try
-                {
-
-                // Activate discord stuff
-                _rpcEnabled = true;
                 _startTime = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
+                if (TryInitDiscord())
+                    _timer = new System.Threading.Timer(OnTick, null, 0, 5000);
+                else
+                    _timer = new System.Threading.Timer(OnTick, null, 30000, 30000);
+            }
+            else
+            {
+                _rpcEnabled = false;
+                string missingFile = _fields == null ? "fields" : "events";
+                _logger.WriteLine($"[RPC] Error initialising RPC: Couldn't load {missingFile}. Make sure {missingFile}.json exists in the mod's folder", System.Drawing.Color.Red);
+            }
+        }
 
-                _discord = new Discord.Discord(CLIENT_ID, (UInt64)CreateFlags.NoRequireDiscord);
+        private bool TryInitDiscord()
+        {
+            try
+            {
+                _discord = new Discord.Discord(CLIENT_ID, (ulong)CreateFlags.NoRequireDiscord);
                 LogDebug("Discord client created");
                 _discord.SetLogHook(LogLevel.Debug, LogProblemsFunction);
                 _activityManager = _discord.GetActivityManager();
                 _activityManager.RegisterSteam(1113000);
-                _timer = new System.Threading.Timer(OnTick, null, 0, 5000);
 
                 _logger.WriteLine("[RPC] RPC activated");
-
-                }
-                catch(Exception e)
-                {
-                    _logger.WriteLine($"[RPC] Error initialising RPC please make sure Discord is running: {e.Message}", System.Drawing.Color.Red);
-                    LogDebug(e.StackTrace);
-                }
-            } 
-            else
+                return true;
+            }
+            catch (Exception e)
             {
-                string missingFile = _fields == null ? "fields" : "events";
-                _logger.WriteLine($"[RPC] Error initialising RPC: Couldn't load {missingFile}. Make sure {missingFile}.json exists in the mod's folder", System.Drawing.Color.Red);
+                _logger.WriteLine($"[RPC] Error initialising RPC retrying in 30 seconds. Please make sure Discord is running: {e.Message}", System.Drawing.Color.Red);
+                return false;
             }
         }
 
@@ -96,10 +98,18 @@ namespace p4gpc.rpc
 
         private void OnTick(object state)
         {
-            if (_rpcEnabled)
+            UpdateActivity();
+            try
             {
-                UpdateActivity();
                 _discord.RunCallbacks();
+            }
+            catch (Exception e)
+            {
+                _logger.WriteLine($"[RPC] Error updating status, attempting to reinitialise rpc connection: {e.Message}", System.Drawing.Color.Red);
+                if (TryInitDiscord())
+                    _timer.Change(0, 5000);
+                else
+                    _timer.Change(30000, 30000);
             }
         }
 
@@ -136,7 +146,7 @@ namespace p4gpc.rpc
                 _tickCounter++;
             }
 
-            
+
             // Set variables for activity info
             var name = foundField.name;
             if (foundField.name == null && description != "Resting after a successful battle")
@@ -146,7 +156,7 @@ namespace p4gpc.rpc
             }
 
             // Only set state and description if they weren't set to resting after a battle before
-            if(description != "Resting after a successful battle")
+            if (description != "Resting after a successful battle")
             {
                 state = foundField.state;
                 description = foundField.description != null ? foundField.description : $"Exploring {name}";
@@ -167,18 +177,18 @@ namespace p4gpc.rpc
             }
 
             // Check if we're in an event
-            if(eventMajor != 0 && eventMinor != 0)
+            if (eventMajor != 0 && eventMinor != 0)
             {
                 var foundEvent = _events.SingleOrDefault(e => e.major == eventMajor && e.minor == eventMinor);
-                
+
                 // Override field status stuff with event stuff
-                if(foundEvent.description != null)
+                if (foundEvent.description != null)
                 {
                     description = foundEvent.description;
 
                     if (foundEvent.state != null)
                         state = foundEvent.state;
-                    if(foundEvent.imageKey != null)
+                    if (foundEvent.imageKey != null)
                     {
                         imageKey = foundEvent.imageKey;
                         imageText = foundEvent.imageText;
@@ -251,7 +261,7 @@ namespace p4gpc.rpc
             if (time == 5) weather += "_night";
 
             // Set the image to be the field image if it isn't already set to an event one
-            if(imageKey == null)
+            if (imageKey == null)
             {
                 imageKey = foundField.imageKey != null ? $"{foundField.imageKey}{(foundField.imageKey != "logo" && !foundField.inTVWorld && !foundField.ignoreWeather ? weather : "")}" : "logo";
                 imageText = foundField.imageText != null ? foundField.imageText : "Persona 4 Golden Logo";
@@ -276,22 +286,23 @@ namespace p4gpc.rpc
                 Instance = false,
             };
 
-            _activityManager.UpdateActivity(activity, (result) =>
-            {
-                if (result == Result.Ok)
+            if (_activityManager != null)
+                _activityManager.UpdateActivity(activity, (result) =>
                 {
-                    LogDebug("Successfully updated activity!");
-                    LogDebug($"Field Major: {fieldMajor}");
-                    LogDebug($"Field Minor: {fieldMinor}");
-                    LogDebug($"Event Major: {eventMajor}");
-                    LogDebug($"Event Minor: {eventMinor}");
-                }
-                else
-                {
-                    LogDebug("Problem updating activity :(");
-                }
+                    if (result == Result.Ok)
+                    {
+                        LogDebug("Successfully updated activity!");
+                        LogDebug($"Field Major: {fieldMajor}");
+                        LogDebug($"Field Minor: {fieldMinor}");
+                        LogDebug($"Event Major: {eventMajor}");
+                        LogDebug($"Event Minor: {eventMinor}");
+                    }
+                    else
+                    {
+                        LogDebug("Problem updating activity :(");
+                    }
 
-            });
+                });
         }
 
         private void ClearActivity()
@@ -309,7 +320,7 @@ namespace p4gpc.rpc
             });
         }
 
-        private object LoadFile(string fileName, Type serialiseType)
+        private object? LoadFile(string fileName, Type serialiseType)
         {
             try
             {
@@ -319,7 +330,7 @@ namespace p4gpc.rpc
                     return serializer.Deserialize(file, serialiseType);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 _logger.WriteLine($"[RPC] Error loading field information, RPC will not be activated. Please make sure fields.json exists in the mod's folder.", System.Drawing.Color.Red);
             }
@@ -356,7 +367,7 @@ namespace p4gpc.rpc
         {
             if (Configuration.Debug)
             {
-                if(_logger != null)
+                if (_logger != null)
                 {
                     _logger.WriteLine($"[RPC] {message}");
                 }
@@ -367,7 +378,7 @@ namespace p4gpc.rpc
         {
             _rpcEnabled = false;
             ClearActivity();
-            if(_logger != null)
+            if (_logger != null)
             {
                 _logger.WriteLine("[RPC] RPC suspended");
             }
@@ -377,7 +388,7 @@ namespace p4gpc.rpc
         {
             _startTime = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
             _rpcEnabled = true;
-            if(_logger != null)
+            if (_logger != null)
             {
                 _logger.WriteLine("[RPC] RPC resumed");
             }
@@ -387,7 +398,7 @@ namespace p4gpc.rpc
         {
             _timer.Dispose();
             _discord.Dispose();
-            if(_logger != null)
+            if (_logger != null)
             {
                 _logger.WriteLine("[RPC] RPC unloaded");
             }
